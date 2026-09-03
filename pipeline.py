@@ -149,6 +149,24 @@ SUBTAXONOMY = {
 }
 FALLBACK_SUBCATEGORY = "Autre"
 
+# Doc-id-safe slug per domain, used when splitting per-domain tag-links into
+# separate small Artifact db documents (see write-up in main()).
+DOMAIN_SLUGS = {
+    "Sante": "sante",
+    "Environnement & Energie": "environnement-energie",
+    "Transport & Mobilite": "transport-mobilite",
+    "Education & Recherche": "education-recherche",
+    "Economie & Finances": "economie-finances",
+    "Emploi & Travail": "emploi-travail",
+    "Justice & Securite": "justice-securite",
+    "Agriculture & Alimentation": "agriculture-alimentation",
+    "Logement & Urbanisme": "logement-urbanisme",
+    "Culture & Patrimoine": "culture-patrimoine",
+    "Numerique": "numerique",
+    "International": "international",
+    "Collectivites & Administration": "collectivites-administration",
+}
+
 # Platform/metadata boilerplate tags that show up almost everywhere regardless of
 # subject matter - excluded from the tag-based third level since they carry no
 # distinguishing signal (e.g. "donnees-ouvertes" tops nearly every subcategory).
@@ -289,6 +307,40 @@ def build_digest(records, now, window_days=RECENT_WINDOW_DAYS, cap=40):
             if top:
                 subtag_counts.setdefault(domain, {})[sub] = top
 
+    # Dataset links per (domain, subcategory, tag), for the tags that made the cut
+    # above - collected in one more pass rather than a per-tag scan of all records.
+    qualifying_tags = {
+        (domain, sub, t)
+        for domain, subs in subtag_counts.items()
+        for sub, tags in subs.items()
+        for t in tags
+    }
+    RAW_CAP = 60
+    subtag_item_pool = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+    for r in records:
+        if not r["sub_domain"]:
+            continue
+        domain, sub = r["domain"], r["sub_domain"]
+        for t in r["tags"]:
+            t_clean = t.strip().lower()
+            key = (domain, sub, t_clean)
+            if key in qualifying_tags:
+                bucket = subtag_item_pool[domain][sub][t_clean]
+                if len(bucket) < RAW_CAP:
+                    bucket.append(r)
+
+    LINKS_CAP = 12
+    epoch = datetime.min.replace(tzinfo=timezone.utc)
+    subtag_links = {}
+    for domain, subs in subtag_item_pool.items():
+        for sub, tags in subs.items():
+            for t, items in tags.items():
+                items_sorted = sorted(
+                    items, key=lambda r: r["last_modified"] or r["created_at"] or epoch, reverse=True
+                )
+                links = [{"title": r["title"], "url": r["url"]} for r in items_sorted[:LINKS_CAP]]
+                subtag_links.setdefault(domain, {}).setdefault(sub, {})[t] = links
+
     def brief(r):
         return {
             "title": r["title"], "url": r["url"], "domain": r["domain"],
@@ -309,6 +361,7 @@ def build_digest(records, now, window_days=RECENT_WINDOW_DAYS, cap=40):
         "domain_counts": dict(domain_counts.most_common()),
         "subdomain_counts": subdomain_counts,
         "subtag_counts": subtag_counts,
+        "subtag_links": subtag_links,
         "org_counts_top": dict(org_counts.most_common(15)),
         "license_counts_top": dict(license_counts.most_common(10)),
         "format_counts_top": dict(format_counts.most_common(10)),
@@ -386,9 +439,27 @@ def main():
     report_path.write_text(render_markdown(digest), encoding="utf-8")
     print(f"Report written to {report_path}", file=sys.stderr)
 
+    # subtag_links is dropped from the digest itself and written as a separate
+    # file, split by domain slug: at ~1MB+ total it would blow past the Artifact
+    # db's 256 KiB per-document cap if kept in the (one-document) digest. Split
+    # per domain it comes to well under that per document, and the dashboard
+    # fetches a domain's doc lazily, only once a tag chip in it is clicked.
+    subtag_links = digest.pop("subtag_links", {})
+    tag_links_by_slug = {
+        DOMAIN_SLUGS[domain]: {"domain": domain, "subs": subs}
+        for domain, subs in subtag_links.items()
+        if domain in DOMAIN_SLUGS
+    }
+
     if args.digest_json:
-        Path(args.digest_json).write_text(json.dumps(digest, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"Digest JSON written to {args.digest_json}", file=sys.stderr)
+        digest_path = Path(args.digest_json)
+        digest_path.write_text(json.dumps(digest, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"Digest JSON written to {digest_path}", file=sys.stderr)
+
+        links_path = digest_path.parent / "tag_links.json"
+        links_path.write_text(json.dumps(tag_links_by_slug, ensure_ascii=False, indent=2), encoding="utf-8")
+        sizes = {slug: len(json.dumps(v, ensure_ascii=False)) for slug, v in tag_links_by_slug.items()}
+        print(f"Tag links JSON written to {links_path} (largest domain doc: {max(sizes.values(), default=0)} bytes)", file=sys.stderr)
 
     print(json.dumps({k: v for k, v in digest.items() if k not in ("new_items", "updated_items")}, ensure_ascii=False, indent=2))
 

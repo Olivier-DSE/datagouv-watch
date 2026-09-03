@@ -35,15 +35,15 @@ try {
         throw "pipeline.py exited with code $LASTEXITCODE"
     }
 
-    Log "--- committing digest_latest.json ---"
-    git add digest_latest.json
-    $status = git status --porcelain digest_latest.json
+    Log "--- committing digest_latest.json and tag_links.json ---"
+    git add digest_latest.json tag_links.json
+    $status = git status --porcelain digest_latest.json tag_links.json
     if ($status) {
         git commit -m "Weekly digest $timestamp"
         git push
-        Log "Pushed updated digest_latest.json."
+        Log "Pushed updated digest_latest.json and tag_links.json."
     } else {
-        Log "digest_latest.json unchanged, nothing to commit."
+        Log "Nothing changed, nothing to commit."
     }
 
     Log "=== Finished OK: $(Get-Date -Format 'yyyy-MM-dd_HHmmss') ==="

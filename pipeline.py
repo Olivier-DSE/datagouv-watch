@@ -64,6 +64,99 @@ _COMPILED_TAXONOMY = {
     for domain, keywords in TAXONOMY.items()
 }
 
+# --- Sub-taxonomy: domain -> subcategory -> keyword/tag matchers ----------
+# Same whole-word matching approach, scoped to a domain that's already been
+# assigned - so "sante" doesn't need repeating inside every health subcategory.
+
+SUBTAXONOMY = {
+    "Sante": {
+        "Etablissements & soins": ["hopital", "hopitaux", "clinique", "etablissement de sante", "soins?", "medecins?", "chirurgie"],
+        "Epidemiologie & maladies": ["epidemio", "covid", "maladies?", "cancer", "pandemie"],
+        "Handicap & medico-social": ["handicap", "medico-social", "ehpad", "dependance"],
+        "Medicaments & produits de sante": ["medicament", "pharmaceutique", "vaccins?", "dispositifs? medicaux?"],
+    },
+    "Environnement & Energie": {
+        "Biodiversite & ecologie": ["biodiversite", "ecologie", "ecologique", "faune", "flore", "especes?"],
+        "Climat & risques naturels": ["climat", "climatique", "risques? naturels?", "inondations?", "secheresse", "carbone"],
+        "Dechets & recyclage": ["dechets?", "recyclage", "tri selectif", "collecte"],
+        "Energie & reseaux": ["energie", "energetique", "renouvelable", "nucleaire", "electricite", "gaz"],
+        "Eau & hydrologie": ["eaux?", "hydraulique", "hydrologie", "assainissement", "rivieres?"],
+        "Forets": ["foret", "forestier", "boisement"],
+    },
+    "Transport & Mobilite": {
+        "Reseaux routiers": ["routiers?", "voirie", "autoroutes?"],
+        "Transport en commun": ["transports? en commun", "bus", "tramway", "metro", "ferroviaire", "train"],
+        "Mobilites actives": ["velos?", "pietons?", "mobilite douce"],
+        "Trafic & stationnement": ["trafic", "circulation", "stationnement", "parking"],
+        "Aerien & maritime": ["aerien", "aeroport", "maritime", "portuaire"],
+    },
+    "Education & Recherche": {
+        "Etablissements scolaires": ["ecoles?", "scolaire", "college", "lycee"],
+        "Enseignement superieur": ["universite", "universitaire", "grandes ecoles"],
+        "Recherche": ["recherche", "scientifique", "laboratoire"],
+        "Formation professionnelle": ["formation", "apprentissage", "alternance"],
+    },
+    "Economie & Finances": {
+        "Finances publiques & budget": ["budget", "budgetaire", "finances publiques", "depenses publiques"],
+        "Fiscalite": ["impots?", "fiscal", "fiscalite", "taxes?"],
+        "Entreprises & commerce": ["entreprises?", "commerce", "industrie", "industriel", "pme"],
+        "Marches publics": ["marches? publics?", "appels? d'offres?", "boamp"],
+    },
+    "Emploi & Travail": {
+        "Marche du travail": ["chomage", "emploi", "marche du travail"],
+        "Conditions de travail": ["salaires?", "conditions de travail", "convention collective"],
+        "Insertion professionnelle": ["insertion professionnelle", "recrutement", "alternance"],
+    },
+    "Justice & Securite": {
+        "Securite & police": ["securite", "police", "delinquance"],
+        "Justice": ["justice", "tribunal", "penal", "juridique"],
+        "Secours & incendie": ["incendies?", "secours", "pompiers?"],
+    },
+    "Agriculture & Alimentation": {
+        "Production agricole": ["agriculture", "agricole", "cultures?", "foncier agricole"],
+        "Elevage & peche": ["elevage", "peche", "aquaculture"],
+        "Alimentation": ["alimentation", "alimentaire", "nutrition"],
+        "Viticulture": ["viticulture", "vignes?", "vin"],
+    },
+    "Logement & Urbanisme": {
+        "Cadastre & foncier": ["cadastre", "foncier", "parcelles?"],
+        "Construction & habitat": ["construction", "habitat", "logements?"],
+        "Amenagement du territoire": ["amenagement du territoire", "urbanisme", "plu\\b"],
+        "Immobilier": ["immobilier"],
+    },
+    "Culture & Patrimoine": {
+        "Patrimoine & monuments": ["patrimoine", "monuments?"],
+        "Bibliotheques & musees": ["bibliotheques?", "musees?"],
+        "Tourisme": ["tourisme", "touristique"],
+        "Spectacles & evenements": ["spectacles?", "evenements? culturels?", "festival"],
+    },
+    "Numerique": {
+        "Open data & plateformes": ["open ?data", "plateforme numerique"],
+        "Intelligence artificielle": ["intelligence artificielle", "algorithmes?"],
+        "Cybersecurite": ["cybersecurite"],
+        "Applications & services numeriques": ["application mobile", "site internet", "logiciels?", "informatique"],
+    },
+    "International": {
+        "Cooperation & diplomatie": ["cooperation internationale", "diplomatique"],
+        "Immigration & asile": ["immigration", "asile", "visas?"],
+    },
+    "Collectivites & Administration": {
+        "Communes & intercommunalites": ["communes?", "intercommunalite", "mairies?"],
+        "Regions & departements": ["regions?", "departements?"],
+        "Elections & elus": ["elus?", "elections?"],
+        "Administration publique": ["administration", "administratif", "prefecture"],
+    },
+}
+FALLBACK_SUBCATEGORY = "Autre"
+
+_COMPILED_SUBTAXONOMY = {
+    domain: {
+        sub: [re.compile(r"\b" + kw + r"\b") for kw in keywords]
+        for sub, keywords in subs.items()
+    }
+    for domain, subs in SUBTAXONOMY.items()
+}
+
 
 def normalize(text):
     if not text:
@@ -73,16 +166,27 @@ def normalize(text):
     return text.lower()
 
 
-def classify(tags, title, description_short):
-    tags_norm = normalize(" ".join(tags))
+def classify_domain(tags_norm, text_norm):
     for domain, patterns in _COMPILED_TAXONOMY.items():
         if any(p.search(tags_norm) for p in patterns):
             return domain
-    text_norm = normalize(f"{title} {description_short}")
     for domain, patterns in _COMPILED_TAXONOMY.items():
         if any(p.search(text_norm) for p in patterns):
             return domain
     return FALLBACK_DOMAIN
+
+
+def classify_sub(domain, tags_norm, text_norm):
+    subs = _COMPILED_SUBTAXONOMY.get(domain)
+    if not subs:
+        return None
+    for sub, patterns in subs.items():
+        if any(p.search(tags_norm) for p in patterns):
+            return sub
+    for sub, patterns in subs.items():
+        if any(p.search(text_norm) for p in patterns):
+            return sub
+    return FALLBACK_SUBCATEGORY
 
 
 # --- Download ---------------------------------------------------------------
@@ -110,7 +214,10 @@ def parse_catalog(path: Path):
         reader = csv.DictReader(f, delimiter=";")
         for row in reader:
             tags = [t for t in (row.get("tags") or "").split(",") if t]
-            domain = classify(tags, row.get("title", ""), row.get("description_short", ""))
+            tags_norm = normalize(" ".join(tags))
+            text_norm = normalize(f"{row.get('title', '')} {row.get('description_short', '')}")
+            domain = classify_domain(tags_norm, text_norm)
+            sub_domain = classify_sub(domain, tags_norm, text_norm)
             records.append({
                 "id": row["id"],
                 "title": row.get("title", ""),
@@ -122,6 +229,7 @@ def parse_catalog(path: Path):
                 "archived": (row.get("archived") == "True"),
                 "resources_formats": [x for x in re.split(r"[,;]", row.get("resources_formats") or "") if x],
                 "domain": domain,
+                "sub_domain": sub_domain,
             })
     return records
 
@@ -147,8 +255,17 @@ def build_digest(records, now, window_days=RECENT_WINDOW_DAYS, cap=40):
     license_counts = Counter(r["license"] or "(non renseigne)" for r in records)
     format_counts = Counter(f.upper() for r in records for f in r["resources_formats"])
 
+    subdomain_counts = {}
+    for domain in SUBTAXONOMY:
+        subs = Counter(r["sub_domain"] for r in records if r["domain"] == domain and r["sub_domain"])
+        if subs:
+            subdomain_counts[domain] = dict(subs.most_common())
+
     def brief(r):
-        return {"title": r["title"], "url": r["url"], "domain": r["domain"], "organization": r["organization"]}
+        return {
+            "title": r["title"], "url": r["url"], "domain": r["domain"],
+            "sub_domain": r["sub_domain"], "organization": r["organization"],
+        }
 
     new_items.sort(key=lambda r: r["created_at"], reverse=True)
     updated_items.sort(key=lambda r: r["last_modified"], reverse=True)
@@ -162,6 +279,7 @@ def build_digest(records, now, window_days=RECENT_WINDOW_DAYS, cap=40):
         "updated_count": len(updated_items),
         "archived_count": len(archived_items),
         "domain_counts": dict(domain_counts.most_common()),
+        "subdomain_counts": subdomain_counts,
         "org_counts_top": dict(org_counts.most_common(15)),
         "license_counts_top": dict(license_counts.most_common(10)),
         "format_counts_top": dict(format_counts.most_common(10)),
@@ -183,6 +301,8 @@ def render_markdown(digest):
     lines.append("## Repartition par domaine")
     for domain, count in digest["domain_counts"].items():
         lines.append(f"- {domain}: {count}")
+        for sub, sub_count in digest.get("subdomain_counts", {}).get(domain, {}).items():
+            lines.append(f"  - {sub}: {sub_count}")
     lines.append("")
 
     lines.append("## Top organisations")

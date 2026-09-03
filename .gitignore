@@ -1,0 +1,4 @@
+catalog.csv
+digest_latest.json
+reports/
+*.log

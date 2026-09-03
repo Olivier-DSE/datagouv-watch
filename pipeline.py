@@ -25,7 +25,7 @@ import json
 import re
 import sys
 import urllib.request
-from collections import Counter
+from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -149,6 +149,14 @@ SUBTAXONOMY = {
 }
 FALLBACK_SUBCATEGORY = "Autre"
 
+# Platform/metadata boilerplate tags that show up almost everywhere regardless of
+# subject matter - excluded from the tag-based third level since they carry no
+# distinguishing signal (e.g. "donnees-ouvertes" tops nearly every subcategory).
+TAG_STOPWORDS = {
+    "donnees-ouvertes", "opendata", "open-data", "inspire", "passerelle-inspire",
+    "geoscientific-information", "hvd", "france",
+}
+
 _COMPILED_SUBTAXONOMY = {
     domain: {
         sub: [re.compile(r"\b" + kw + r"\b") for kw in keywords]
@@ -230,6 +238,7 @@ def parse_catalog(path: Path):
                 "resources_formats": [x for x in re.split(r"[,;]", row.get("resources_formats") or "") if x],
                 "domain": domain,
                 "sub_domain": sub_domain,
+                "tags": tags,
             })
     return records
 
@@ -261,6 +270,25 @@ def build_digest(records, now, window_days=RECENT_WINDOW_DAYS, cap=40):
         if subs:
             subdomain_counts[domain] = dict(subs.most_common())
 
+    # Third level: the real tags publishers attached, within each domain/subcategory -
+    # data-driven rather than another hand-picked keyword layer, so it stays accurate
+    # to what's actually in the catalog and needs no manual upkeep as tag usage shifts.
+    subtag_counters = defaultdict(lambda: defaultdict(Counter))
+    for r in records:
+        if r["sub_domain"]:
+            counter = subtag_counters[r["domain"]][r["sub_domain"]]
+            for t in r["tags"]:
+                t_clean = t.strip().lower()
+                if t_clean and t_clean not in TAG_STOPWORDS:
+                    counter[t_clean] += 1
+
+    subtag_counts = {}
+    for domain, subs in subtag_counters.items():
+        for sub, counter in subs.items():
+            top = {t: c for t, c in counter.most_common(10) if c >= 2}
+            if top:
+                subtag_counts.setdefault(domain, {})[sub] = top
+
     def brief(r):
         return {
             "title": r["title"], "url": r["url"], "domain": r["domain"],
@@ -280,6 +308,7 @@ def build_digest(records, now, window_days=RECENT_WINDOW_DAYS, cap=40):
         "archived_count": len(archived_items),
         "domain_counts": dict(domain_counts.most_common()),
         "subdomain_counts": subdomain_counts,
+        "subtag_counts": subtag_counts,
         "org_counts_top": dict(org_counts.most_common(15)),
         "license_counts_top": dict(license_counts.most_common(10)),
         "format_counts_top": dict(format_counts.most_common(10)),
@@ -303,6 +332,10 @@ def render_markdown(digest):
         lines.append(f"- {domain}: {count}")
         for sub, sub_count in digest.get("subdomain_counts", {}).get(domain, {}).items():
             lines.append(f"  - {sub}: {sub_count}")
+            tags = digest.get("subtag_counts", {}).get(domain, {}).get(sub, {})
+            if tags:
+                tag_str = ", ".join(f"{t} ({c})" for t, c in tags.items())
+                lines.append(f"    - tags: {tag_str}")
     lines.append("")
 
     lines.append("## Top organisations")

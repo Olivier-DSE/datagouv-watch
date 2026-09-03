@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "generated_at": "2026-09-03T10:07:24.495383+00:00",
+  "generated_at": "2026-09-03T10:20:53.580862+00:00",
   "window_days": 8,
   "total": 130803,
   "new_count": 1267,
@@ -110,6 +110,734 @@
       "Elections & elus": 1855,
       "Administration publique": 774,
       "Autre": 221
+    }
+  },
+  "subtag_counts": {
+    "Environnement & Energie": {
+      "Climat & risques naturels": {
+        "risque-zonages-risque-naturel": 8551,
+        "zones-a-risque-naturel": 5724,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 5295,
+        "risque-inondation": 3175,
+        "inondation": 3159,
+        "pprn": 2720,
+        "usage-des-sols": 2678,
+        "risque": 1372,
+        "alea-enjeux-inondation-amenagement-urbanisme-prescription-prevention-servitude-risque-multi-risque": 1168,
+        "ppr": 901
+      },
+      "Biodiversite & ecologie": {
+        "biodiversite": 859,
+        "environnement": 804,
+        "habitats-et-biotopes": 491,
+        "sites-proteges": 458,
+        "nature-paysage-biodiversite-zonages-nature": 442,
+        "ecologie": 303,
+        "continuite-ecologique": 301,
+        "repartition-des-especes": 294,
+        "trame-verte-et-bleue": 292,
+        "srce": 282
+      },
+      "Eau & hydrologie": {
+        "eau": 1227,
+        "hydrographie": 1104,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 1010,
+        "eau-zonages-eau": 905,
+        "environnement": 598,
+        "observation-de-la-terre-et-environnement": 470,
+        "politique-de-lenvironnement": 427,
+        "donnees-de-references-referentiels-vocabulaire-controle": 397,
+        "dce": 322,
+        "eau-de-surface": 319
+      },
+      "Energie & reseaux": {
+        "energie": 671,
+        "lieux-de-production-et-sites-industriels": 380,
+        "eau": 367,
+        "industrie": 364,
+        "batiments": 362,
+        "transport": 351,
+        "hydrographie": 351,
+        "unites-administratives": 348,
+        "usage-des-sols": 347,
+        "occupation-des-terres": 345
+      },
+      "Autre": {
+        "environnement": 2547,
+        "tourisme": 531,
+        "nature": 526,
+        "lunel": 477,
+        "ccpl": 474,
+        "pollution": 426,
+        "geospatial": 396,
+        "velo": 369,
+        "paysage": 354,
+        "air": 352
+      },
+      "Forets": {
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 298,
+        "risque-zonages-risque-naturel": 217,
+        "foret-dfci": 207,
+        "zones-a-risque-naturel": 175,
+        "foret": 171,
+        "foret-foret": 87,
+        "foret-gestion": 78,
+        "foret-reglement": 62,
+        "herault": 44,
+        "foret-description": 41
+      },
+      "Dechets & recyclage": {
+        "dechet": 790,
+        "dechets": 595,
+        "ccpl": 550,
+        "collecte": 545,
+        "tri": 516,
+        "tri-selectif": 455,
+        "environnement": 441,
+        "verre": 241,
+        "decheterie": 212,
+        "compostage": 154
+      }
+    },
+    "Collectivites & Administration": {
+      "Regions & departements": {
+        "donnees-essentielles": 1952,
+        "commande-publique": 1949,
+        "region": 837,
+        "statique": 712,
+        "ortho-imagerie": 555,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 537,
+        "orthophoto-regionale": 465,
+        "photographies-aeriennes": 425,
+        "geospatial": 413,
+        "risque-zonages-risque-naturel": 359
+      },
+      "Autre": {
+        "collectivites-locales": 46,
+        "comptabilite-publique": 36,
+        "comptes-publics": 36,
+        "collectivite": 28,
+        "collectivites": 21,
+        "collectivite-territoriale": 21,
+        "balances-comptables": 19,
+        "chercheur-ou-journaliste": 17,
+        "frequentation-statistiques": 16,
+        "validations-telebillettiques": 16
+      },
+      "Communes & intercommunalites": {
+        "commune": 788,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 385,
+        "risque-zonages-risque-naturel": 371,
+        "communes": 354,
+        "adresses": 307,
+        "base-adresse-locale": 306,
+        "grand-public": 301,
+        "flore": 287,
+        "intercommunalite": 285,
+        "geospatial": 267
+      },
+      "Administration publique": {
+        "administration": 202,
+        "donnee-generique-administratif": 109,
+        "unites-administratives": 80,
+        "decoupage-administratif": 57,
+        "administratif": 54,
+        "compte-administratif": 52,
+        "administration-action-publique": 51,
+        "acte-administratif": 46,
+        "carte": 41,
+        "grand-public": 40
+      },
+      "Elections & elus": {
+        "elections": 708,
+        "election": 705,
+        "citoyennete": 381,
+        "vote": 303,
+        "citoyennete-institution": 296,
+        "bureau-de-vote": 135,
+        "resultats": 119,
+        "elus": 115,
+        "legislatives": 105,
+        "participation": 103
+      }
+    },
+    "Culture & Patrimoine": {
+      "Tourisme": {
+        "tourisme": 792,
+        "hebergement": 119,
+        "culture": 107,
+        "sport": 96,
+        "culture-tourisme": 94,
+        "nature": 80,
+        "musique": 78,
+        "theatre": 74,
+        "conservatoire": 72,
+        "opera": 72
+      },
+      "Patrimoine & monuments": {
+        "patrimoine": 797,
+        "culture": 661,
+        "tourisme": 427,
+        "monument": 339,
+        "ccpl": 284,
+        "site": 152,
+        "culture-patrimoine": 145,
+        "musee": 83,
+        "patrimoine-naturel": 76,
+        "bretagne": 75
+      },
+      "Spectacles & evenements": {
+        "culture": 53,
+        "musique": 35,
+        "spectacle-vivant": 30,
+        "spectacle": 27,
+        "arts": 24,
+        "geolocalisation": 24,
+        "concert": 19,
+        "theatre": 18,
+        "festival": 16,
+        "vie-culturelle": 14
+      },
+      "Autre": {
+        "culture": 505,
+        "ministeredelaculture": 164,
+        "region": 58,
+        "societe": 56,
+        "statique": 54,
+        "sport": 48,
+        "art": 46,
+        "mer-littoral-culture-marine": 43,
+        "musique": 40,
+        "agenda": 36
+      },
+      "Bibliotheques & musees": {
+        "bibliotheque": 190,
+        "culture": 187,
+        "musee": 85,
+        "mediatheque": 71,
+        "livre": 67,
+        "statistiques": 56,
+        "musees": 40,
+        "livres": 38,
+        "abonnement": 34,
+        "bibliotheques": 25
+      }
+    },
+    "Sante": {
+      "Autre": {
+        "sante": 537,
+        "sante-et-securite-des-personnes": 455,
+        "sante-social": 380,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 179,
+        "environnement": 139,
+        "zones-a-risque-naturel": 100,
+        "nuisance-bruit": 92,
+        "bruit": 80,
+        "logement-sante-social": 79,
+        "enfance": 76
+      },
+      "Etablissements & soins": {
+        "sante": 119,
+        "sante-et-systeme-de-soins": 70,
+        "hopital": 69,
+        "soins": 34,
+        "medecin": 28,
+        "acces-aux-soins": 27,
+        "etablissement-de-sante": 20,
+        "hopitaux": 19,
+        "medecins": 18,
+        "qualite-des-soins": 17
+      },
+      "Handicap & medico-social": {
+        "handicap": 288,
+        "accessibilite": 63,
+        "geospatial": 54,
+        "transport": 40,
+        "sante": 33,
+        "personnes-agees": 30,
+        "pmr": 29,
+        "stationnement": 29,
+        "sport": 28,
+        "handicap-et-autonomie": 27
+      },
+      "Epidemiologie & maladies": {
+        "covid-19": 90,
+        "covid19": 70,
+        "covid": 54,
+        "coronavirus": 53,
+        "sante": 38,
+        "vaccination": 19,
+        "observatoire-economique": 18,
+        "confinement": 15,
+        "pandemie": 11,
+        "observatoire-eco-masse-salariale": 11
+      },
+      "Medicaments & produits de sante": {
+        "vaccin": 10,
+        "sante": 10,
+        "vaccination": 6,
+        "medicament": 5,
+        "covid19": 4,
+        "coronavirus": 3,
+        "medicaments": 3,
+        "evaluation": 2,
+        "vacsi": 2,
+        "citoyennete": 2
+      }
+    },
+    "Transport & Mobilite": {
+      "Autre": {
+        "mobilite": 748,
+        "transport": 646,
+        "statique": 468,
+        "reseaux-de-transport": 421,
+        "bassin": 344,
+        "infra-departemental": 341,
+        "gtfs": 339,
+        "societe": 315,
+        "transports": 234,
+        "netex": 169
+      },
+      "Mobilites actives": {
+        "velo": 726,
+        "mobilite": 229,
+        "transport": 153,
+        "stationnement": 98,
+        "station": 81,
+        "velos": 81,
+        "pistes-cyclables": 80,
+        "tourisme": 77,
+        "amenagements-cyclables": 67,
+        "deplacement": 66
+      },
+      "Reseaux routiers": {
+        "voirie": 479,
+        "route": 418,
+        "nuisance-bruit": 343,
+        "reseaux-de-transport": 323,
+        "reseau-routier": 304,
+        "transport": 259,
+        "route-departementale": 238,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 233,
+        "trafic": 222,
+        "localisation": 169
+      },
+      "Transport en commun": {
+        "bus": 689,
+        "transport": 418,
+        "mobilite": 321,
+        "transports": 279,
+        "tramway": 257,
+        "arret": 248,
+        "transport-en-commun": 207,
+        "gtfs": 178,
+        "metro": 157,
+        "deplacement": 130
+      },
+      "Trafic & stationnement": {
+        "stationnement": 506,
+        "transport": 345,
+        "circulation": 299,
+        "reseaux-de-transport": 295,
+        "donnees-publiques": 225,
+        "parking": 223,
+        "mobilite": 195,
+        "deplacement": 170,
+        "route": 143,
+        "payant": 107
+      },
+      "Aerien & maritime": {
+        "reseaux-de-transport": 68,
+        "aerien": 44,
+        "transport-maritime": 33,
+        "mer": 31,
+        "observation": 30,
+        "port": 27,
+        "transport": 25,
+        "aeroport": 25,
+        "nouvelle-aquitaine": 24,
+        "atlantique": 24
+      }
+    },
+    "Justice & Securite": {
+      "Securite & police": {
+        "securite": 119,
+        "police": 84,
+        "2019": 45,
+        "deliberation": 36,
+        "surveillance": 34,
+        "grand-public": 30,
+        "convention": 29,
+        "securite-civile": 27,
+        "police-municipale": 26,
+        "zones-a-risque-naturel": 23
+      },
+      "Secours & incendie": {
+        "incendie": 74,
+        "risque-zonages-risque-naturel": 65,
+        "risque": 63,
+        "zones-a-risque-naturel": 60,
+        "secours": 26,
+        "sdis": 14,
+        "pprif": 12,
+        "pompiers": 11,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 10,
+        "pompier": 8
+      },
+      "Justice": {
+        "justice": 19,
+        "discrimination": 7,
+        "egalite": 7,
+        "tribunal": 5,
+        "droit": 4,
+        "judiciaire": 3,
+        "avocat": 2,
+        "avocats": 2,
+        "barreau": 2,
+        "barreaux": 2
+      },
+      "Autre": {
+        "prison": 3,
+        "amenagement-de-peine": 2
+      }
+    },
+    "Numerique": {
+      "Autre": {
+        "altitude": 160,
+        "numerique": 135,
+        "orthophoto-regionale": 121,
+        "orthophotoplans": 121,
+        "photographies-aeriennes": 121,
+        "modele-numerique-de-terrain": 104,
+        "mnt": 101,
+        "mediation-numerique": 79,
+        "inclusion-numerique": 77,
+        "modele-numerique": 77
+      },
+      "Applications & services numeriques": {
+        "informatique": 13,
+        "logiciel": 9,
+        "numerique": 8,
+        "cnil": 7,
+        "informatique-et-libertes": 5,
+        "dematerialisation": 4,
+        "inclusion": 4,
+        "maintenance-logiciel": 3,
+        "marches-publics": 3,
+        "societe": 3
+      },
+      "Open data & plateformes": {
+        "data": 1886,
+        "open": 1878,
+        "xml": 1873,
+        "geospatial": 100,
+        "scdl": 34,
+        "niort": 32,
+        "scdl-deliberations": 29,
+        "gironde": 28,
+        "equipement": 27,
+        "administratif": 27
+      },
+      "Cybersecurite": {
+        "cybersecurite": 4
+      },
+      "Intelligence artificielle": {
+        "algorithme": 8,
+        "donnees": 3,
+        "transparence": 2,
+        "algorithmes": 2,
+        "algorithmes-publics": 2
+      }
+    },
+    "Economie & Finances": {
+      "Autre": {
+        "economie": 646,
+        "administration-gouvernement-finances-publiques-citoyennete": 399,
+        "statique": 257,
+        "region": 247,
+        "marche": 228,
+        "administration": 213,
+        "developpement-economique": 181,
+        "election": 168,
+        "emploi": 146,
+        "finances": 143
+      },
+      "Finances publiques & budget": {
+        "budget": 2061,
+        "finances-publiques": 795,
+        "budget-primitif": 705,
+        "finances": 645,
+        "compte": 400,
+        "compte-administratif": 392,
+        "finance": 381,
+        "m71": 368,
+        "citoyennete-institution": 298,
+        "budget-de-letat": 297
+      },
+      "Entreprises & commerce": {
+        "economie": 404,
+        "entreprise": 403,
+        "entreprises": 181,
+        "industrie": 177,
+        "commerce": 173,
+        "entreprendre": 147,
+        "zones-dactivites": 143,
+        "ccpl": 142,
+        "lieux-de-production-et-sites-industriels": 89,
+        "agriculture": 78
+      },
+      "Marches publics": {
+        "marche-public": 64,
+        "commande-publique": 35,
+        "marches-publics": 34,
+        "marche": 23,
+        "achat-public": 16,
+        "citoyennete-institution": 13,
+        "economie": 12,
+        "commande-public": 10,
+        "donnees-essentielles": 9,
+        "decp": 7
+      },
+      "Fiscalite": {
+        "fiscalite": 138,
+        "carte": 113,
+        "economie": 76,
+        "commune": 67,
+        "revenu-fiscal": 57,
+        "canton": 56,
+        "effort-fiscal": 41,
+        "amenagement-du-territoire": 41,
+        "cartes": 40,
+        "grand-est": 40
+      }
+    },
+    "Logement & Urbanisme": {
+      "Amenagement du territoire": {
+        "usage-des-sols": 4440,
+        "amenagement-urbanisme-zonages-planification": 4012,
+        "plu": 1747,
+        "urbanisme": 1308,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 1052,
+        "document-durbanisme": 1029,
+        "amenagement-urbanisme-assiette-servitude": 850,
+        "servitude": 552,
+        "planification": 526,
+        "prevention": 459
+      },
+      "Construction & habitat": {
+        "habitat": 502,
+        "logement": 447,
+        "habitats-et-biotopes": 268,
+        "habitat-politique-de-la-ville-politique": 215,
+        "urbanisme": 205,
+        "mer": 199,
+        "amenagement-du-territoire-urbanisme-batiments-equipements-logement": 176,
+        "amenagement": 168,
+        "urbanisme-et-logements": 167,
+        "plu": 158
+      },
+      "Immobilier": {
+        "immobilier": 46,
+        "prix": 12,
+        "dvf": 6,
+        "encadrement": 6,
+        "loyer": 6,
+        "immobiliers": 6,
+        "encadrement-des-loyers": 5,
+        "paris": 5,
+        "prix-immobilier": 4,
+        "etudes": 4
+      },
+      "Cadastre & foncier": {
+        "planning-cadastre": 4351,
+        "usage-des-sols": 3563,
+        "plu": 1356,
+        "document-durbanisme": 940,
+        "cadastre": 407,
+        "grand-public": 356,
+        "urbanisme": 254,
+        "pos": 200,
+        "parcelles-cadastrales": 173,
+        "rhone-alpes": 173
+      }
+    },
+    "International": {
+      "Autre": {
+        "international": 19,
+        "francais-de-l-etranger": 18,
+        "risque-zonages-risque-technologique": 17,
+        "elections": 17,
+        "francais-etablis-hors-de-france": 17,
+        "vote": 16,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 15,
+        "etudes": 13,
+        "landes-40": 10,
+        "mlpc-international": 10
+      },
+      "Immigration & asile": {
+        "immigration": 157,
+        "migrant": 97,
+        "chiffres-cles-de-limmigration": 74,
+        "asile": 51,
+        "visa": 51,
+        "entree-en-france": 51,
+        "etranger": 46,
+        "immigre": 45,
+        "refugie": 34,
+        "frontiere": 33
+      }
+    },
+    "Agriculture & Alimentation": {
+      "Elevage & peche": {
+        "mer": 206,
+        "peche": 102,
+        "peche-professionnelle": 74,
+        "facade-atlantique": 72,
+        "nouvelle-aquitaine": 62,
+        "regions-maritimes": 58,
+        "bretagne": 47,
+        "caracteristiques-geographiques-oceanographiques": 46,
+        "parc-naturel-marin-estuaire-de-la-gironde-mer-des-pertuis": 42,
+        "effort-de-peche": 41
+      },
+      "Production agricole": {
+        "agriculture": 877,
+        "occupation-du-sol": 590,
+        "nature": 573,
+        "artificialisation": 572,
+        "couverture": 572,
+        "evolution": 572,
+        "naf": 572,
+        "usage": 572,
+        "ccpl": 566,
+        "agriculture-zonages-agricoles": 317
+      },
+      "Alimentation": {
+        "alimentation": 38,
+        "mer": 14,
+        "nouvelle-aquitaine": 11,
+        "parc-naturel-marin-estuaire-de-la-gironde-mer-des-pertuis": 10,
+        "pays-de-la-loire": 10,
+        "zone-fonctionnelle": 10,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 9,
+        "canal": 9,
+        "hydrographie": 9,
+        "hydrographie-reseaux-et-ouvrages": 9
+      },
+      "Viticulture": {
+        "viticulture": 4,
+        "donnees-vecteur": 2,
+        "draaf-auvergne-rhone-alpes": 2,
+        "farming": 2,
+        "grand-public": 2,
+        "rhone-alpes": 2,
+        "zonage": 2,
+        "zonages-agricoles": 2
+      }
+    },
+    "Education & Recherche": {
+      "Autre": {
+        "education": 141,
+        "enseignement-superieur": 46,
+        "etudiant": 43,
+        "geospatial": 40,
+        "culture": 37,
+        "enseignement": 36,
+        "eleves-etudiants-et-apprentis": 29,
+        "statistiques": 27,
+        "colleges": 27,
+        "enseignement-agricole": 26
+      },
+      "Etablissements scolaires": {
+        "education": 332,
+        "ecole": 295,
+        "college": 185,
+        "ecoles": 154,
+        "lycee": 152,
+        "scolaire": 141,
+        "etablissement": 131,
+        "enseignement": 117,
+        "formation": 104,
+        "public": 90
+      },
+      "Recherche": {
+        "recherche": 247,
+        "enseignement-formation-recherche": 158,
+        "innovation": 84,
+        "enseignement-superieur": 68,
+        "statistiques": 57,
+        "formations-sanitaires-et-sociales": 53,
+        "education-formation-recherche-enseignement": 51,
+        "region": 45,
+        "r-d": 40,
+        "bourse-detudes": 39
+      },
+      "Formation professionnelle": {
+        "formation": 368,
+        "region": 215,
+        "statique": 215,
+        "emploi": 54,
+        "education-formation-jeunesse": 52,
+        "education-formation": 45,
+        "formation-professionnelle": 44,
+        "cfa": 40,
+        "apprentissage": 37,
+        "education": 37
+      },
+      "Enseignement superieur": {
+        "universite": 87,
+        "enseignement-superieur": 62,
+        "recherche": 49,
+        "universites": 42,
+        "statistiques": 38,
+        "enseignement-formation": 31,
+        "etudiant": 28,
+        "donnees-sexuees": 23,
+        "enseignement": 22,
+        "universite-paris-nanterre": 22
+      }
+    },
+    "Emploi & Travail": {
+      "Marche du travail": {
+        "emploi": 277,
+        "statique": 146,
+        "region": 141,
+        "chomage": 42,
+        "population": 33,
+        "statistiques": 27,
+        "activite": 24,
+        "salarie": 23,
+        "chomage-et-inscrits-a-france-travail": 23,
+        "inscrits-a-france-travail": 23
+      },
+      "Autre": {
+        "ame": 41,
+        "centre-de-retention-administrati": 41,
+        "controle-aux-frontieres": 41,
+        "cra": 41,
+        "espace-schengen": 41,
+        "etrangers": 41,
+        "frontiere": 41,
+        "immigration": 41,
+        "immigration-clandestine": 41,
+        "immigration-illegale": 41
+      },
+      "Conditions de travail": {
+        "salaires": 24,
+        "salaire": 14,
+        "remuneration": 11,
+        "remunerations": 7,
+        "ressources-humaines": 6,
+        "statistiques": 6,
+        "agents": 5,
+        "rh": 5,
+        "transparence": 5,
+        "elus": 4
+      },
+      "Insertion professionnelle": {
+        "ressources-humaines": 6,
+        "recrutement": 4
+      }
     }
   },
   "org_counts_top": {

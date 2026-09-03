@@ -338,7 +338,10 @@ def build_digest(records, now, window_days=RECENT_WINDOW_DAYS, cap=40):
                 items_sorted = sorted(
                     items, key=lambda r: r["last_modified"] or r["created_at"] or epoch, reverse=True
                 )
-                links = [{"title": r["title"], "url": r["url"]} for r in items_sorted[:LINKS_CAP]]
+                links = [
+                    {"title": r["title"], "url": r["url"], "organization": r["organization"]}
+                    for r in items_sorted[:LINKS_CAP]
+                ]
                 subtag_links.setdefault(domain, {}).setdefault(sub, {})[t] = links
 
     def brief(r):

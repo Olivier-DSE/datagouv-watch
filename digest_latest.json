@@ -1,0 +1,550 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T09:43:32.707904+00:00",
+  "window_days": 8,
+  "total": 130803,
+  "new_count": 1267,
+  "updated_count": 1981,
+  "archived_count": 0,
+  "domain_counts": {
+    "Autre / Non classe": 36548,
+    "Environnement & Energie": 30371,
+    "Collectivites & Administration": 15121,
+    "Logement & Urbanisme": 14727,
+    "Transport & Mobilite": 9472,
+    "Economie & Finances": 8119,
+    "Culture & Patrimoine": 3715,
+    "Numerique": 3248,
+    "Education & Recherche": 3051,
+    "Sante": 2941,
+    "Agriculture & Alimentation": 2044,
+    "Emploi & Travail": 627,
+    "Justice & Securite": 523,
+    "International": 296
+  },
+  "org_counts_top": {
+    "(sans organisation)": 6669,
+    "Occitanie Pyrénées en Intelligence Géomatique": 6140,
+    "Région GRAND EST": 3592,
+    "Office Français de la Biodiversité": 3342,
+    "Ressourcerie datalocale": 3183,
+    "Région Hauts-de-France": 3126,
+    "Communauté d'Agglomération du Saint-Quentinois": 2615,
+    "Direction Départementale des Territoires du Cher": 2088,
+    "DataGrandEst": 1997,
+    "Direction Départementale des Territoires de l'Ariège": 1959,
+    "Région Auvergne-Rhône-Alpes": 1957,
+    "Direction Départementale des Territoires et de la Mer de la Somme": 1879,
+    "Direction Départementale des Territoires et de la Mer des Pyrénées-Atlantiques": 1873,
+    "Région Île-de-France": 1473,
+    "Communauté d'Agglomération Plaine Vallée": 1386
+  },
+  "license_counts_top": {
+    "Licence Ouverte / Open Licence version 2.0": 62959,
+    "License Not Specified": 37030,
+    "Licence Ouverte / Open Licence": 11012,
+    "Open Data Commons Open Database License (ODbL)": 7501,
+    "Other (Attribution)": 5995,
+    "(non renseigne)": 5467,
+    "Creative Commons Attribution": 196,
+    "Other (Public Domain)": 172,
+    "Other (Open)": 172,
+    "Creative Commons Attribution Share-Alike": 164
+  },
+  "format_counts_top": {
+    "CSV": 43303,
+    "JSON": 35413,
+    "ZIP": 26568,
+    "WMS": 22819,
+    "WFS": 21501,
+    "SHP": 18464,
+    "ESRI SHAPEFILE (SHP)": 15289,
+    "PDF": 8785,
+    "GEOJSON": 8177,
+    "WEB PAGE": 6996
+  },
+  "new_items": [
+    {
+      "title": "Observations d’herbier à Cymodocea nodosa à Erbalunga (Commune de Brando, Cap Corse)",
+      "url": "https://www.data.gouv.fr/datasets/observations-dherbier-a-cymodocea-nodosa-a-erbalunga-commune-de-brando-cap-corse",
+      "domain": "Collectivites & Administration",
+      "organization": "Office Français de la Biodiversité"
+    },
+    {
+      "title": "Implantation territoriale du réseau de la Caisse des Dépôts",
+      "url": "https://www.data.gouv.fr/datasets/implantation-territoriale-du-reseau-de-la-caisse-des-depots-1",
+      "domain": "Autre / Non classe",
+      "organization": "Caisse des Dépôts"
+    },
+    {
+      "title": "Classement sonore des routes de catégorie 4 - Isère",
+      "url": "https://www.data.gouv.fr/datasets/classement-sonore-des-routes-de-categorie-4-isere",
+      "domain": "Autre / Non classe",
+      "organization": "DDT de l'Isère"
+    },
+    {
+      "title": "Classement sonore des routes de Catégorie 5 - Isère",
+      "url": "https://www.data.gouv.fr/datasets/classement-sonore-des-routes-de-categorie-5-isere",
+      "domain": "Autre / Non classe",
+      "organization": "DDT de l'Isère"
+    },
+    {
+      "title": "Classement sonore des routes de catégorie 3 - Isère",
+      "url": "https://www.data.gouv.fr/datasets/classement-sonore-des-routes-de-categorie-3-isere",
+      "domain": "Autre / Non classe",
+      "organization": "DDT de l'Isère"
+    },
+    {
+      "title": "Arrêtés réglementaires à Issy-les-Moulineaux",
+      "url": "https://www.data.gouv.fr/datasets/arretes-reglementaires-a-issy-les-moulineaux",
+      "domain": "Economie & Finances",
+      "organization": "Ville d'Issy-les-Moulineaux"
+    },
+    {
+      "title": "Structures petite enfance à la Ville d'Issy-les-Moulineaux",
+      "url": "https://www.data.gouv.fr/datasets/structures-petite-enfance-a-la-ville-dissy-les-moulineaux",
+      "domain": "Autre / Non classe",
+      "organization": "Ville d'Issy-les-Moulineaux"
+    },
+    {
+      "title": "📑 Ordres du jour et listes des délibérations du Conseil Municipal d'Issy-les-Moulineaux",
+      "url": "https://www.data.gouv.fr/datasets/ordres-du-jour-et-listes-des-deliberations-du-conseil-municipal-dissy-les-moulineaux",
+      "domain": "Economie & Finances",
+      "organization": "Ville d'Issy-les-Moulineaux"
+    },
+    {
+      "title": "🔎 Délibérations du Conseil Municipal d'Issy-les-Moulineaux",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-du-conseil-municipal-dissy-les-moulineaux-2",
+      "domain": "Economie & Finances",
+      "organization": "Ville d'Issy-les-Moulineaux"
+    },
+    {
+      "title": "Evénements affectant la circulation parisienne",
+      "url": "https://www.data.gouv.fr/datasets/evenements-affectant-la-circulation-parisienne",
+      "domain": "Transport & Mobilite",
+      "organization": "Ville de Paris"
+    },
+    {
+      "title": "Evolution de la dette à Issy-les-Moulineaux",
+      "url": "https://www.data.gouv.fr/datasets/evolution-de-la-dette-a-issy-les-moulineaux",
+      "domain": "Economie & Finances",
+      "organization": "Ville d'Issy-les-Moulineaux"
+    },
+    {
+      "title": "Disponibilité dans les Parking à Angers",
+      "url": "https://www.data.gouv.fr/datasets/disponibilite-dans-les-parking-a-angers",
+      "domain": "Transport & Mobilite",
+      "organization": "Angers Loire Métropole"
+    },
+    {
+      "title": "VélÔToulouse - Disponibilité temps réel",
+      "url": "https://www.data.gouv.fr/datasets/velotoulouse-disponibilite-temps-reel",
+      "domain": "Transport & Mobilite",
+      "organization": "Toulouse métropole"
+    },
+    {
+      "title": "État des ascenseurs",
+      "url": "https://www.data.gouv.fr/datasets/etat-des-ascenseurs",
+      "domain": "Numerique",
+      "organization": "Île-de-France Mobilités"
+    },
+    {
+      "title": "Etat de fonctionnement des équipements d'élévatique en gare",
+      "url": "https://www.data.gouv.fr/datasets/etat-de-fonctionnement-des-equipements-delevatique-en-gare",
+      "domain": "Autre / Non classe",
+      "organization": "SNCF"
+    },
+    {
+      "title": "Réalisations des conseils de quartier depuis 2013",
+      "url": "https://www.data.gouv.fr/datasets/realisations-des-conseils-de-quartier-depuis-2013",
+      "domain": "Environnement & Energie",
+      "organization": "Ville d'Issy-les-Moulineaux"
+    },
+    {
+      "title": "Domaine de Villarceaux - évènements de la saison 2026",
+      "url": "https://www.data.gouv.fr/datasets/domaine-de-villarceaux-evenements-de-la-saison-2026",
+      "domain": "Environnement & Energie",
+      "organization": "Région Île-de-France"
+    },
+    {
+      "title": "Jardins ouverts 2026",
+      "url": "https://www.data.gouv.fr/datasets/jardins-ouverts-2026",
+      "domain": "Environnement & Energie",
+      "organization": "Région Île-de-France"
+    },
+    {
+      "title": "Délibérations Commune de Castelnau-d'Estrétefonds",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castelnau-destretefonds",
+      "domain": "Collectivites & Administration",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Chantiers (ORION)- Toulouse Métropole",
+      "url": "https://www.data.gouv.fr/datasets/chantiers-toulouse-metropole",
+      "domain": "Transport & Mobilite",
+      "organization": "Toulouse métropole"
+    },
+    {
+      "title": "Délibérations Commune d'Auterive",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-dauterive",
+      "domain": "Collectivites & Administration",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Labège",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-labege",
+      "domain": "Collectivites & Administration",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Roques",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-roques",
+      "domain": "Collectivites & Administration",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Cazères-sur-Garonne",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-cazeres-sur-garonne",
+      "domain": "Collectivites & Administration",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Communauté de Communes Coeur de Garonne",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-communaute-de-communes-coeur-de-garonne",
+      "domain": "Collectivites & Administration",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Fontenilles",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-fontenilles",
+      "domain": "Collectivites & Administration",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Castelmaurou",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castelmaurou",
+      "domain": "Collectivites & Administration",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Part des EnR et intensité en émissions de GES de l’électricité consommée en France en temps réel",
+      "url": "https://www.data.gouv.fr/datasets/part-des-enr-et-intensite-en-emissions-de-ges-de-lelectricite-consommee-en-france-en-temps-reel",
+      "domain": "Environnement & Energie",
+      "organization": "Open Data Réseaux Énergies"
+    },
+    {
+      "title": "Délibérations Commune de Castanet-Tolosan",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castanet-tolosan",
+      "domain": "Collectivites & Administration",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Equipements Défibrillateurs",
+      "url": "https://www.data.gouv.fr/datasets/equipements-defibrillateurs",
+      "domain": "Autre / Non classe",
+      "organization": "SNCF"
+    },
+    {
+      "title": "Délibérations Commune de Ramonville-Saint-Agne",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-ramonville-saint-agne",
+      "domain": "Collectivites & Administration",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Etat du trafic en temps réel",
+      "url": "https://www.data.gouv.fr/datasets/etat-du-trafic-en-temps-reel",
+      "domain": "Transport & Mobilite",
+      "organization": "Rennes Métropole en accès libre"
+    },
+    {
+      "title": "Mon été, ma région",
+      "url": "https://www.data.gouv.fr/datasets/mon-ete-ma-region",
+      "domain": "Culture & Patrimoine",
+      "organization": "Région Île-de-France"
+    },
+    {
+      "title": "Gares équipées du Wi-Fi",
+      "url": "https://www.data.gouv.fr/datasets/gares-equipees-du-wi-fi",
+      "domain": "Autre / Non classe",
+      "organization": "SNCF"
+    },
+    {
+      "title": "Directfermiers31-Table de correspondance globale",
+      "url": "https://www.data.gouv.fr/datasets/directfermiers31-table-de-correspondance-globale",
+      "domain": "Autre / Non classe",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Comptage routier sur la voirie départementale en Haute-Garonne",
+      "url": "https://www.data.gouv.fr/datasets/comptage-routier-sur-la-voirie-departementale-en-haute-garonne",
+      "domain": "Transport & Mobilite",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Documents publics des aides et appels à projets de la Région",
+      "url": "https://www.data.gouv.fr/datasets/documents-publics-des-aides-et-appels-a-projets-de-la-region",
+      "domain": "Collectivites & Administration",
+      "organization": "Région Île-de-France"
+    },
+    {
+      "title": "Conditions de circulation hivernales",
+      "url": "https://www.data.gouv.fr/datasets/conditions-de-circulation-hivernales",
+      "domain": "Transport & Mobilite",
+      "organization": "Rennes Métropole en accès libre"
+    },
+    {
+      "title": "Carrefours Feux Sonores - Toulouse Métropole",
+      "url": "https://www.data.gouv.fr/datasets/carrefours-feux-sonores-toulouse-metropole",
+      "domain": "Transport & Mobilite",
+      "organization": "Toulouse métropole"
+    },
+    {
+      "title": "assistant-ia-dinum-deploiement-au-ministere-de-leducation-nationale-en-academie",
+      "url": "https://www.data.gouv.fr/datasets/assistant-ia-dinum-deploiement-au-ministere-de-leducation-nationale-en-academie",
+      "domain": "Numerique",
+      "organization": "Ministères de l'Éducation nationale"
+    }
+  ],
+  "updated_items": [
+    {
+      "title": "Bornes de Recharge pour Véhicules Électriques Wattzhub",
+      "url": "https://www.data.gouv.fr/datasets/bornes-de-recharge-pour-vehicules-electriques-wattzhub-1",
+      "domain": "Autre / Non classe",
+      "organization": "WattzHub"
+    },
+    {
+      "title": "Médecins accrédités par la HAS",
+      "url": "https://www.data.gouv.fr/datasets/medecins-accredites-par-la-has",
+      "domain": "Autre / Non classe",
+      "organization": "Haute Autorité de santé"
+    },
+    {
+      "title": "IRVE dynamique (organisation Parera Mobilité)",
+      "url": "https://www.data.gouv.fr/datasets/irve-dynamique-organisation-parera-mobilite",
+      "domain": "Transport & Mobilite",
+      "organization": "PARERA MOBILITE"
+    },
+    {
+      "title": "IRVE statique & dynamique (e-clearing.net)",
+      "url": "https://www.data.gouv.fr/datasets/irve-statique-dynamique-e-clearing-net",
+      "domain": "Autre / Non classe",
+      "organization": "e-clearing.net"
+    },
+    {
+      "title": "Paquets Arome - Résolution 0,01°",
+      "url": "https://www.data.gouv.fr/datasets/paquets-arome-resolution-0-01deg",
+      "domain": "Autre / Non classe",
+      "organization": "Météo-France"
+    },
+    {
+      "title": "Projets de Recherche ADEME - Vue agrégée 2014-2020",
+      "url": "https://www.data.gouv.fr/datasets/projets-de-recherche-ademe-vue-agregee-2014-2020",
+      "domain": "Education & Recherche",
+      "organization": "ADEME"
+    },
+    {
+      "title": "Paquets Arome - Résolution 0,025°",
+      "url": "https://www.data.gouv.fr/datasets/paquets-arome-resolution-0-025deg",
+      "domain": "Autre / Non classe",
+      "organization": "Météo-France"
+    },
+    {
+      "title": "Projets de Recherche ADEME - Vue agrégée depuis 2021",
+      "url": "https://www.data.gouv.fr/datasets/projets-de-recherche-ademe-vue-agregee-depuis-2021",
+      "domain": "Education & Recherche",
+      "organization": "ADEME"
+    },
+    {
+      "title": "Projets de Recherche ADEME - Vue détaillée 2014-2020",
+      "url": "https://www.data.gouv.fr/datasets/projets-de-recherche-ademe-vue-detaillee-2014-2020",
+      "domain": "Education & Recherche",
+      "organization": "ADEME"
+    },
+    {
+      "title": "REP - Liste des producteurs enregistrés dans SYDEREP avec leur identifiant unique",
+      "url": "https://www.data.gouv.fr/datasets/rep-liste-des-producteurs-enregistres-dans-syderep-avec-leur-identifiant-unique",
+      "domain": "Environnement & Energie",
+      "organization": "ADEME"
+    },
+    {
+      "title": "Liste des expériences partagées par les usagers",
+      "url": "https://www.data.gouv.fr/datasets/liste-des-experiences-partagees-par-les-usagers",
+      "domain": "Economie & Finances",
+      "organization": "Direction Interministérielle de la Transformation Publique"
+    },
+    {
+      "title": "Projets de Recherche ADEME - Vue détaillée depuis 2021",
+      "url": "https://www.data.gouv.fr/datasets/projets-de-recherche-ademe-vue-detaillee-depuis-2021",
+      "domain": "Education & Recherche",
+      "organization": "ADEME"
+    },
+    {
+      "title": "Produits d’Indices Biométéorologiques - UV",
+      "url": "https://www.data.gouv.fr/datasets/produits-dindices-biometeorologiques-uv",
+      "domain": "Autre / Non classe",
+      "organization": "Météo-France"
+    },
+    {
+      "title": "PCAET (v1) - Démarches - Partie 3",
+      "url": "https://www.data.gouv.fr/datasets/pcaet-v1-demarches-partie-3",
+      "domain": "Environnement & Energie",
+      "organization": "ADEME"
+    },
+    {
+      "title": "PE Arpege GLOB025",
+      "url": "https://www.data.gouv.fr/datasets/pe-arpege-glob025",
+      "domain": "Autre / Non classe",
+      "organization": "Météo-France"
+    },
+    {
+      "title": "PCAET (v1) - Démarches - Partie 4",
+      "url": "https://www.data.gouv.fr/datasets/pcaet-v1-demarches-partie-4",
+      "domain": "Environnement & Energie",
+      "organization": "ADEME"
+    },
+    {
+      "title": "Données essentielles des conventions de subvention",
+      "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-des-conventions-de-subvention-5",
+      "domain": "Culture & Patrimoine",
+      "organization": "Ministère de la Culture"
+    },
+    {
+      "title": "Jointure BOAMP - SIREN / Côté acheteurs / 2024, 2025 et 2026",
+      "url": "https://www.data.gouv.fr/datasets/jointure-boamp-siren-cote-acheteurs-2024-2025-et-2026",
+      "domain": "Economie & Finances",
+      "organization": "AuFilDuBoamp.com"
+    },
+    {
+      "title": "Historique des groupes politiques de l'Assemblée nationale (depuis 2012) - Informations et statistiques",
+      "url": "https://www.data.gouv.fr/datasets/historique-des-groupes-politiques-de-lassemblee-nationale-depuis-2012-informations-et-statistiques",
+      "domain": "Autre / Non classe",
+      "organization": "Datan"
+    },
+    {
+      "title": "Historique des députés de l'Assemblée nationale (depuis 2002) - Informations et statistiques",
+      "url": "https://www.data.gouv.fr/datasets/historique-des-deputes-de-lassemblee-nationale-depuis-2002-informations-et-statistiques",
+      "domain": "Autre / Non classe",
+      "organization": "Datan"
+    },
+    {
+      "title": "Groupes politiques actifs de l'Assemblée nationale - Informations et statistiques",
+      "url": "https://www.data.gouv.fr/datasets/groupes-politiques-actifs-de-lassemblee-nationale-informations-et-statistiques",
+      "domain": "Autre / Non classe",
+      "organization": "Datan"
+    },
+    {
+      "title": "Députés actifs de l'Assemblée nationale - Informations et statistiques",
+      "url": "https://www.data.gouv.fr/datasets/deputes-actifs-de-lassemblee-nationale-informations-et-statistiques",
+      "domain": "Autre / Non classe",
+      "organization": "Datan"
+    },
+    {
+      "title": "PCAET (v1) - Démarches - Partie 2",
+      "url": "https://www.data.gouv.fr/datasets/pcaet-v1-demarches-partie-2",
+      "domain": "Environnement & Energie",
+      "organization": "ADEME"
+    },
+    {
+      "title": "PCAET (v2) - Démarches - Partie 1-Entête",
+      "url": "https://www.data.gouv.fr/datasets/pcaet-v2-demarches-partie-1-entete",
+      "domain": "Environnement & Energie",
+      "organization": "ADEME"
+    },
+    {
+      "title": "PCAET (v1) - Démarches - Partie 1-Entête",
+      "url": "https://www.data.gouv.fr/datasets/pcaet-v1-demarches-partie-1-entete",
+      "domain": "Environnement & Energie",
+      "organization": "ADEME"
+    },
+    {
+      "title": "Budgets des organismes adhérents du GIP RECIA",
+      "url": "https://www.data.gouv.fr/datasets/budgets-des-organismes-adherents-du-gip-recia",
+      "domain": "Economie & Finances",
+      "organization": "GIP RECIA - Do.TeRR GéoCentre"
+    },
+    {
+      "title": "PCAET (v2) - Démarches - Partie 3",
+      "url": "https://www.data.gouv.fr/datasets/pcaet-v2-demarches-partie-3",
+      "domain": "Environnement & Energie",
+      "organization": "ADEME"
+    },
+    {
+      "title": "Index de l'égalité professionnelle femmes-hommes, par département et secteur",
+      "url": "https://www.data.gouv.fr/datasets/index-de-legalite-professionnelle-femmes-hommes-par-departement-et-secteur",
+      "domain": "Emploi & Travail",
+      "organization": "Firmio"
+    },
+    {
+      "title": "Conventions collectives appliquées, par département et secteur d'activité",
+      "url": "https://www.data.gouv.fr/datasets/conventions-collectives-appliquees-par-departement-et-secteur-dactivite",
+      "domain": "Emploi & Travail",
+      "organization": "Firmio"
+    },
+    {
+      "title": "Créations d'entreprises par commune, rapportées à la population",
+      "url": "https://www.data.gouv.fr/datasets/creations-dentreprises-par-commune-rapportees-a-la-population",
+      "domain": "Economie & Finances",
+      "organization": "Firmio"
+    },
+    {
+      "title": "Ouvertures de procédures collectives en France, par département, secteur et mois",
+      "url": "https://www.data.gouv.fr/datasets/ouvertures-de-procedures-collectives-en-france-par-departement-secteur-et-mois",
+      "domain": "Economie & Finances",
+      "organization": "Firmio"
+    },
+    {
+      "title": "PCAET (v2) - Démarches - Partie 4",
+      "url": "https://www.data.gouv.fr/datasets/pcaet-v2-demarches-partie-4",
+      "domain": "Environnement & Energie",
+      "organization": "ADEME"
+    },
+    {
+      "title": "Délibérations des organismes adhérents du GIP RECIA",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-des-organismes-adherents-du-gip-recia",
+      "domain": "Collectivites & Administration",
+      "organization": "GIP RECIA - Do.TeRR GéoCentre"
+    },
+    {
+      "title": "Public charging stations for electric cars from several CPOs",
+      "url": "https://www.data.gouv.fr/datasets/public-charging-stations-for-electric-cars-from-several-cpos",
+      "domain": "Transport & Mobilite",
+      "organization": "Eco-Movement"
+    },
+    {
+      "title": "Paquets de modèle de vagues haute résolution - WW3-WARP - Résolution 0.1°",
+      "url": "https://www.data.gouv.fr/datasets/paquets-de-modele-de-vagues-haute-resolution-ww3-warp-resolution-0-1deg",
+      "domain": "Autre / Non classe",
+      "organization": "Météo-France"
+    },
+    {
+      "title": "PE Arpege EURAT01",
+      "url": "https://www.data.gouv.fr/datasets/pe-arpege-eurat01",
+      "domain": "Autre / Non classe",
+      "organization": "Météo-France"
+    },
+    {
+      "title": "Paquets de modèle de vagues haute résolution - WW3-MARO - Résolution 0.1°",
+      "url": "https://www.data.gouv.fr/datasets/paquets-de-modele-de-vagues-haute-resolution-ww3-maro-resolution-0-1deg",
+      "domain": "Autre / Non classe",
+      "organization": "Météo-France"
+    },
+    {
+      "title": "Paquets de modèle de vagues haute résolution - WW3-MARP - Résolution 0.1°",
+      "url": "https://www.data.gouv.fr/datasets/paquets-de-modele-de-vagues-haute-resolution-ww3-marp-resolution-0-1deg",
+      "domain": "Autre / Non classe",
+      "organization": "Météo-France"
+    },
+    {
+      "title": "Données de la Présence Numérique des Territoires ",
+      "url": "https://www.data.gouv.fr/datasets/donnees-de-la-presence-numerique-des-territoires",
+      "domain": "Numerique",
+      "organization": "Agence nationale de la cohésion des territoires"
+    },
+    {
+      "title": "Paquets de modèle de vagues - MFWAM - Résolution 0.1°",
+      "url": "https://www.data.gouv.fr/datasets/paquets-de-modele-de-vagues-mfwam-resolution-0-1deg",
+      "domain": "Autre / Non classe",
+      "organization": "Météo-France"
+    }
+  ]
+}

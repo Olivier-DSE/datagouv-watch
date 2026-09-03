@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "generated_at": "2026-09-03T10:39:29.873717+00:00",
+  "generated_at": "2026-09-03T10:48:38.893070+00:00",
   "window_days": 8,
   "total": 130803,
   "new_count": 1266,
@@ -838,6 +838,444 @@
         "ressources-humaines": 6,
         "recrutement": 4
       }
+    }
+  },
+  "subtag_recent": {
+    "Environnement & Energie": {
+      "Climat & risques naturels": [
+        "inondation",
+        "risque-zonages-risque-naturel",
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
+      ],
+      "Biodiversite & ecologie": [
+        "biodiversite",
+        "continuite-ecologique",
+        "ecologie",
+        "environnement",
+        "habitats-et-biotopes",
+        "nature-paysage-biodiversite-zonages-nature",
+        "repartition-des-especes",
+        "srce",
+        "trame-verte-et-bleue"
+      ],
+      "Eau & hydrologie": [
+        "dce",
+        "donnees-de-references-referentiels-vocabulaire-controle",
+        "eau",
+        "eau-de-surface",
+        "eau-zonages-eau",
+        "environnement",
+        "hydrographie",
+        "observation-de-la-terre-et-environnement",
+        "politique-de-lenvironnement",
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
+      ],
+      "Energie & reseaux": [
+        "batiments",
+        "energie",
+        "lieux-de-production-et-sites-industriels",
+        "unites-administratives"
+      ],
+      "Autre": [
+        "air",
+        "environnement",
+        "geospatial",
+        "nature",
+        "paysage",
+        "pollution",
+        "tourisme",
+        "velo"
+      ],
+      "Forets": [
+        "foret"
+      ],
+      "Dechets & recyclage": [
+        "collecte",
+        "dechet",
+        "decheterie",
+        "dechets",
+        "environnement",
+        "tri",
+        "tri-selectif",
+        "verre"
+      ]
+    },
+    "Collectivites & Administration": {
+      "Regions & departements": [
+        "commande-publique",
+        "donnees-essentielles",
+        "geospatial",
+        "region",
+        "risque-zonages-risque-naturel",
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
+      ],
+      "Autre": [
+        "chercheur-ou-journaliste",
+        "collectivite",
+        "collectivites"
+      ],
+      "Communes & intercommunalites": [
+        "adresses",
+        "base-adresse-locale",
+        "commune",
+        "communes"
+      ],
+      "Administration publique": [
+        "administratif",
+        "administration"
+      ],
+      "Elections & elus": [
+        "bureau-de-vote",
+        "citoyennete",
+        "citoyennete-institution",
+        "election",
+        "elections",
+        "elus",
+        "legislatives",
+        "vote"
+      ]
+    },
+    "Culture & Patrimoine": {
+      "Tourisme": [
+        "culture",
+        "culture-tourisme",
+        "hebergement",
+        "musique",
+        "sport",
+        "tourisme"
+      ],
+      "Patrimoine & monuments": [
+        "culture",
+        "culture-patrimoine",
+        "musee",
+        "patrimoine",
+        "patrimoine-naturel",
+        "tourisme"
+      ],
+      "Spectacles & evenements": [
+        "concert",
+        "culture",
+        "festival",
+        "musique",
+        "spectacle",
+        "spectacle-vivant"
+      ],
+      "Autre": [
+        "agenda",
+        "art",
+        "culture",
+        "ministeredelaculture",
+        "musique",
+        "region",
+        "societe",
+        "sport"
+      ],
+      "Bibliotheques & musees": [
+        "bibliotheque",
+        "culture",
+        "mediatheque",
+        "musees"
+      ]
+    },
+    "Sante": {
+      "Autre": [
+        "enfance",
+        "environnement",
+        "logement-sante-social",
+        "sante",
+        "sante-et-securite-des-personnes",
+        "sante-social"
+      ],
+      "Etablissements & soins": [
+        "acces-aux-soins",
+        "hopital",
+        "hopitaux",
+        "medecin",
+        "medecins",
+        "sante",
+        "soins"
+      ],
+      "Handicap & medico-social": [
+        "accessibilite",
+        "handicap",
+        "handicap-et-autonomie",
+        "personnes-agees",
+        "pmr",
+        "sante",
+        "stationnement",
+        "transport"
+      ],
+      "Epidemiologie & maladies": [
+        "coronavirus",
+        "covid",
+        "covid-19",
+        "sante",
+        "vaccination"
+      ],
+      "Medicaments & produits de sante": [
+        "citoyennete",
+        "sante",
+        "vaccin",
+        "vaccination"
+      ]
+    },
+    "Transport & Mobilite": {
+      "Autre": [
+        "gtfs",
+        "mobilite",
+        "netex",
+        "reseaux-de-transport",
+        "societe",
+        "transport",
+        "transports"
+      ],
+      "Mobilites actives": [
+        "amenagements-cyclables",
+        "deplacement",
+        "mobilite",
+        "pistes-cyclables",
+        "station",
+        "stationnement",
+        "tourisme",
+        "transport",
+        "velo",
+        "velos"
+      ],
+      "Reseaux routiers": [
+        "reseau-routier",
+        "reseaux-de-transport",
+        "route",
+        "route-departementale",
+        "trafic",
+        "transport",
+        "voirie"
+      ],
+      "Transport en commun": [
+        "arret",
+        "bus",
+        "deplacement",
+        "gtfs",
+        "metro",
+        "mobilite",
+        "tramway",
+        "transport",
+        "transport-en-commun",
+        "transports"
+      ],
+      "Trafic & stationnement": [
+        "circulation",
+        "deplacement",
+        "mobilite",
+        "parking",
+        "payant",
+        "reseaux-de-transport",
+        "route",
+        "stationnement",
+        "transport"
+      ],
+      "Aerien & maritime": [
+        "aeroport",
+        "port",
+        "reseaux-de-transport",
+        "transport",
+        "transport-maritime"
+      ]
+    },
+    "Justice & Securite": {
+      "Securite & police": [
+        "police",
+        "securite"
+      ],
+      "Secours & incendie": [
+        "incendie",
+        "pompiers"
+      ],
+      "Justice": [
+        "droit",
+        "judiciaire",
+        "justice"
+      ]
+    },
+    "Numerique": {
+      "Autre": [
+        "inclusion-numerique",
+        "mediation-numerique",
+        "numerique"
+      ],
+      "Applications & services numeriques": [
+        "dematerialisation",
+        "inclusion",
+        "informatique",
+        "logiciel",
+        "numerique",
+        "societe"
+      ],
+      "Open data & plateformes": [
+        "administratif",
+        "equipement",
+        "geospatial",
+        "niort",
+        "scdl"
+      ],
+      "Cybersecurite": [
+        "cybersecurite"
+      ],
+      "Intelligence artificielle": [
+        "algorithme",
+        "donnees"
+      ]
+    },
+    "Economie & Finances": {
+      "Autre": [
+        "administration",
+        "administration-gouvernement-finances-publiques-citoyennete",
+        "developpement-economique",
+        "economie",
+        "election",
+        "emploi",
+        "finances",
+        "marche"
+      ],
+      "Finances publiques & budget": [
+        "budget",
+        "budget-de-letat",
+        "budget-primitif",
+        "citoyennete-institution",
+        "compte-administratif",
+        "finances",
+        "finances-publiques"
+      ],
+      "Entreprises & commerce": [
+        "agriculture",
+        "commerce",
+        "economie",
+        "entreprise",
+        "entreprises",
+        "industrie",
+        "lieux-de-production-et-sites-industriels"
+      ],
+      "Marches publics": [
+        "achat-public",
+        "citoyennete-institution",
+        "commande-publique",
+        "decp",
+        "donnees-essentielles",
+        "marche",
+        "marche-public",
+        "marches-publics"
+      ],
+      "Fiscalite": [
+        "commune",
+        "economie",
+        "fiscalite"
+      ]
+    },
+    "Logement & Urbanisme": {
+      "Amenagement du territoire": [
+        "amenagement-urbanisme-zonages-planification",
+        "planification",
+        "plu",
+        "urbanisme",
+        "usage-des-sols",
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
+      ],
+      "Construction & habitat": [
+        "amenagement",
+        "amenagement-du-territoire-urbanisme-batiments-equipements-logement",
+        "habitat",
+        "logement",
+        "urbanisme",
+        "urbanisme-et-logements"
+      ],
+      "Immobilier": [
+        "dvf",
+        "immobilier"
+      ],
+      "Cadastre & foncier": [
+        "cadastre",
+        "urbanisme"
+      ]
+    },
+    "Agriculture & Alimentation": {
+      "Elevage & peche": [
+        "mer",
+        "peche"
+      ],
+      "Production agricole": [
+        "agriculture",
+        "artificialisation",
+        "couverture",
+        "evolution",
+        "naf",
+        "nature",
+        "occupation-du-sol",
+        "usage"
+      ],
+      "Alimentation": [
+        "alimentation"
+      ]
+    },
+    "Education & Recherche": {
+      "Autre": [
+        "colleges",
+        "culture",
+        "education",
+        "eleves-etudiants-et-apprentis",
+        "enseignement",
+        "enseignement-agricole",
+        "etudiant"
+      ],
+      "Etablissements scolaires": [
+        "college",
+        "ecole",
+        "ecoles",
+        "education",
+        "enseignement",
+        "etablissement",
+        "formation",
+        "lycee",
+        "public",
+        "scolaire"
+      ],
+      "Recherche": [
+        "education-formation-recherche-enseignement",
+        "enseignement-formation-recherche",
+        "innovation",
+        "r-d",
+        "recherche",
+        "statistiques"
+      ],
+      "Formation professionnelle": [
+        "apprentissage",
+        "cfa",
+        "education",
+        "education-formation",
+        "education-formation-jeunesse",
+        "emploi",
+        "formation",
+        "formation-professionnelle",
+        "region"
+      ],
+      "Enseignement superieur": [
+        "enseignement-superieur",
+        "recherche",
+        "statistiques",
+        "universite"
+      ]
+    },
+    "Emploi & Travail": {
+      "Marche du travail": [
+        "chomage",
+        "chomage-et-inscrits-a-france-travail",
+        "emploi",
+        "inscrits-a-france-travail"
+      ],
+      "Conditions de travail": [
+        "remuneration",
+        "salaire",
+        "salaires",
+        "statistiques"
+      ]
     }
   },
   "org_counts_top": {

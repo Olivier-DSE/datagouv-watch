@@ -288,24 +288,40 @@ def build_digest(records, now, window_days=RECENT_WINDOW_DAYS, cap=40):
         if subs:
             subdomain_counts[domain] = dict(subs.most_common())
 
+    def is_recent(r):
+        # Same trailing window as new_items/updated_items above, so the "recent"
+        # marker on tags/links means the same thing as "new"/"mis a jour" elsewhere.
+        return (
+            (r["created_at"] and r["created_at"] >= window_start)
+            or (r["last_modified"] and r["last_modified"] >= window_start)
+        )
+
     # Third level: the real tags publishers attached, within each domain/subcategory -
     # data-driven rather than another hand-picked keyword layer, so it stays accurate
     # to what's actually in the catalog and needs no manual upkeep as tag usage shifts.
     subtag_counters = defaultdict(lambda: defaultdict(Counter))
+    subtag_recent_sets = defaultdict(lambda: defaultdict(set))
     for r in records:
         if r["sub_domain"]:
             counter = subtag_counters[r["domain"]][r["sub_domain"]]
+            recent_set = subtag_recent_sets[r["domain"]][r["sub_domain"]] if is_recent(r) else None
             for t in r["tags"]:
                 t_clean = t.strip().lower()
                 if t_clean and t_clean not in TAG_STOPWORDS:
                     counter[t_clean] += 1
+                    if recent_set is not None:
+                        recent_set.add(t_clean)
 
     subtag_counts = {}
+    subtag_recent = {}
     for domain, subs in subtag_counters.items():
         for sub, counter in subs.items():
             top = {t: c for t, c in counter.most_common(10) if c >= 2}
             if top:
                 subtag_counts.setdefault(domain, {})[sub] = top
+                recent_here = sorted(subtag_recent_sets[domain][sub] & top.keys())
+                if recent_here:
+                    subtag_recent.setdefault(domain, {})[sub] = recent_here
 
     # Dataset links per (domain, subcategory, tag), for the tags that made the cut
     # above - collected in one more pass rather than a per-tag scan of all records.
@@ -339,7 +355,10 @@ def build_digest(records, now, window_days=RECENT_WINDOW_DAYS, cap=40):
                     items, key=lambda r: r["last_modified"] or r["created_at"] or epoch, reverse=True
                 )
                 links = [
-                    {"title": r["title"], "url": r["url"], "organization": r["organization"]}
+                    {
+                        "title": r["title"], "url": r["url"], "organization": r["organization"],
+                        "recent": is_recent(r),
+                    }
                     for r in items_sorted[:LINKS_CAP]
                 ]
                 subtag_links.setdefault(domain, {}).setdefault(sub, {})[t] = links
@@ -364,6 +383,7 @@ def build_digest(records, now, window_days=RECENT_WINDOW_DAYS, cap=40):
         "domain_counts": dict(domain_counts.most_common()),
         "subdomain_counts": subdomain_counts,
         "subtag_counts": subtag_counts,
+        "subtag_recent": subtag_recent,
         "subtag_links": subtag_links,
         "org_counts_top": dict(org_counts.most_common(15)),
         "license_counts_top": dict(license_counts.most_common(10)),

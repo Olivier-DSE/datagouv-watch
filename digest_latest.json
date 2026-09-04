@@ -1,10 +1,10 @@
 {
   "date": "2026-09-04",
-  "generated_at": "2026-09-04T06:46:32.410889+00:00",
+  "generated_at": "2026-09-04T15:07:48.897249+00:00",
   "window_days": 8,
   "total": 130816,
-  "new_count": 1303,
-  "updated_count": 2043,
+  "new_count": 1277,
+  "updated_count": 1748,
   "archived_count": 0,
   "domain_counts": {
     "Autre / Non classe": 36549,
@@ -856,7 +856,6 @@
       ],
       "Biodiversite & ecologie": [
         "biodiversite",
-        "continuite-ecologique",
         "ecologie",
         "environnement",
         "habitats-et-biotopes",
@@ -888,7 +887,6 @@
         "environnement",
         "geospatial",
         "nature",
-        "paysage",
         "pollution",
         "tourisme",
         "velo"
@@ -1015,7 +1013,6 @@
         "ministeredelaculture",
         "musique",
         "region",
-        "societe",
         "sport"
       ],
       "Bibliotheques & musees": [
@@ -1092,7 +1089,6 @@
       ],
       "Reseaux routiers": [
         "reseau-routier",
-        "reseaux-de-transport",
         "route",
         "route-departementale",
         "trafic",
@@ -1124,10 +1120,7 @@
       ],
       "Aerien & maritime": [
         "aeroport",
-        "port",
-        "reseaux-de-transport",
-        "transport",
-        "transport-maritime"
+        "transport"
       ]
     },
     "Numerique": {
@@ -1137,12 +1130,7 @@
         "numerique"
       ],
       "Applications & services numeriques": [
-        "dematerialisation",
-        "inclusion",
-        "informatique",
-        "logiciel",
-        "numerique",
-        "societe"
+        "logiciel"
       ],
       "Open data & plateformes": [
         "administratif",
@@ -1175,7 +1163,6 @@
         "budget-de-letat",
         "budget-primitif",
         "citoyennete-institution",
-        "compte-administratif",
         "finances",
         "finances-publiques"
       ],
@@ -1185,7 +1172,6 @@
         "economie",
         "entreprise",
         "entreprises",
-        "industrie",
         "lieux-de-production-et-sites-industriels"
       ],
       "Marches publics": [
@@ -1199,16 +1185,11 @@
         "marches-publics"
       ],
       "Fiscalite": [
-        "commune",
         "economie",
         "fiscalite"
       ]
     },
     "Agriculture & Alimentation": {
-      "Elevage & peche": [
-        "mer",
-        "peche"
-      ],
       "Production agricole": [
         "agriculture"
       ],
@@ -1248,32 +1229,22 @@
       ],
       "Formation professionnelle": [
         "apprentissage",
-        "cfa",
         "education",
         "education-formation",
         "education-formation-jeunesse",
         "emploi",
         "formation",
-        "formation-professionnelle",
-        "region"
+        "formation-professionnelle"
       ],
       "Enseignement superieur": [
-        "enseignement-superieur",
         "recherche",
-        "statistiques",
-        "universite"
+        "statistiques"
       ]
     },
     "Emploi & Travail": {
       "Marche du travail": [
         "chomage",
-        "chomage-et-inscrits-a-france-travail",
-        "emploi",
-        "inscrits-a-france-travail"
-      ],
-      "Conditions de travail": [
-        "remuneration",
-        "salaire"
+        "emploi"
       ]
     }
   },

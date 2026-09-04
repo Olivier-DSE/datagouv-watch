@@ -1,16 +1,16 @@
 {
-  "date": "2026-09-03",
-  "generated_at": "2026-09-03T10:48:38.893070+00:00",
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T06:46:32.410889+00:00",
   "window_days": 8,
-  "total": 130803,
-  "new_count": 1266,
-  "updated_count": 1980,
+  "total": 130816,
+  "new_count": 1303,
+  "updated_count": 2043,
   "archived_count": 0,
   "domain_counts": {
-    "Autre / Non classe": 36548,
-    "Environnement & Energie": 30371,
-    "Collectivites & Administration": 15121,
-    "Logement & Urbanisme": 14727,
+    "Autre / Non classe": 36549,
+    "Environnement & Energie": 30373,
+    "Collectivites & Administration": 15128,
+    "Logement & Urbanisme": 14729,
     "Transport & Mobilite": 9472,
     "Economie & Finances": 8119,
     "Culture & Patrimoine": 3715,
@@ -19,7 +19,7 @@
     "Sante": 2941,
     "Agriculture & Alimentation": 2044,
     "Emploi & Travail": 627,
-    "Justice & Securite": 523,
+    "Justice & Securite": 524,
     "International": 296
   },
   "subdomain_counts": {
@@ -31,13 +31,13 @@
       "Medicaments & produits de sante": 18
     },
     "Environnement & Energie": {
-      "Climat & risques naturels": 13777,
+      "Climat & risques naturels": 13778,
       "Eau & hydrologie": 5193,
       "Autre": 3951,
       "Biodiversite & ecologie": 3439,
       "Dechets & recyclage": 1735,
       "Energie & reseaux": 1388,
-      "Forets": 888
+      "Forets": 889
     },
     "Transport & Mobilite": {
       "Autre": 3236,
@@ -69,7 +69,7 @@
     },
     "Justice & Securite": {
       "Securite & police": 350,
-      "Secours & incendie": 138,
+      "Secours & incendie": 139,
       "Justice": 32,
       "Autre": 3
     },
@@ -80,9 +80,9 @@
       "Viticulture": 5
     },
     "Logement & Urbanisme": {
-      "Amenagement du territoire": 7251,
+      "Amenagement du territoire": 7252,
       "Cadastre & foncier": 5151,
-      "Construction & habitat": 2256,
+      "Construction & habitat": 2257,
       "Immobilier": 69
     },
     "Culture & Patrimoine": {
@@ -105,7 +105,7 @@
       "Cooperation & diplomatie": 1
     },
     "Collectivites & Administration": {
-      "Regions & departements": 7329,
+      "Regions & departements": 7336,
       "Communes & intercommunalites": 4942,
       "Elections & elus": 1855,
       "Administration publique": 774,
@@ -114,15 +114,27 @@
   },
   "subtag_counts": {
     "Environnement & Energie": {
+      "Forets": {
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 299,
+        "risque-zonages-risque-naturel": 218,
+        "foret-dfci": 207,
+        "zones-a-risque-naturel": 175,
+        "foret": 171,
+        "foret-foret": 87,
+        "foret-gestion": 78,
+        "foret-reglement": 62,
+        "herault": 44,
+        "foret-description": 41
+      },
       "Climat & risques naturels": {
         "risque-zonages-risque-naturel": 8551,
         "zones-a-risque-naturel": 5724,
         "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 5295,
         "risque-inondation": 3175,
-        "inondation": 3159,
+        "inondation": 3160,
         "pprn": 2720,
         "usage-des-sols": 2678,
-        "risque": 1372,
+        "risque": 1373,
         "alea-enjeux-inondation-amenagement-urbanisme-prescription-prevention-servitude-risque-multi-risque": 1168,
         "ppr": 901
       },
@@ -174,18 +186,6 @@
         "paysage": 354,
         "air": 352
       },
-      "Forets": {
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 298,
-        "risque-zonages-risque-naturel": 217,
-        "foret-dfci": 207,
-        "zones-a-risque-naturel": 175,
-        "foret": 171,
-        "foret-foret": 87,
-        "foret-gestion": 78,
-        "foret-reglement": 62,
-        "herault": 44,
-        "foret-description": 41
-      },
       "Dechets & recyclage": {
         "dechet": 790,
         "dechets": 595,
@@ -199,16 +199,58 @@
         "compostage": 154
       }
     },
+    "Justice & Securite": {
+      "Secours & incendie": {
+        "incendie": 74,
+        "risque-zonages-risque-naturel": 66,
+        "risque": 63,
+        "zones-a-risque-naturel": 60,
+        "secours": 26,
+        "sdis": 14,
+        "pprif": 12,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 11,
+        "pompiers": 11,
+        "pompier": 8
+      },
+      "Securite & police": {
+        "securite": 119,
+        "police": 84,
+        "2019": 45,
+        "deliberation": 36,
+        "surveillance": 34,
+        "grand-public": 30,
+        "convention": 29,
+        "securite-civile": 27,
+        "police-municipale": 26,
+        "zones-a-risque-naturel": 23
+      },
+      "Justice": {
+        "justice": 19,
+        "discrimination": 7,
+        "egalite": 7,
+        "tribunal": 5,
+        "droit": 4,
+        "judiciaire": 3,
+        "avocat": 2,
+        "avocats": 2,
+        "barreau": 2,
+        "barreaux": 2
+      },
+      "Autre": {
+        "prison": 3,
+        "amenagement-de-peine": 2
+      }
+    },
     "Collectivites & Administration": {
       "Regions & departements": {
-        "donnees-essentielles": 1952,
-        "commande-publique": 1949,
+        "donnees-essentielles": 1958,
+        "commande-publique": 1955,
         "region": 837,
         "statique": 712,
-        "ortho-imagerie": 555,
+        "ortho-imagerie": 556,
         "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 537,
         "orthophoto-regionale": 465,
-        "photographies-aeriennes": 425,
+        "photographies-aeriennes": 426,
         "geospatial": 413,
         "risque-zonages-risque-naturel": 359
       },
@@ -259,6 +301,56 @@
         "elus": 115,
         "legislatives": 105,
         "participation": 103
+      }
+    },
+    "Logement & Urbanisme": {
+      "Amenagement du territoire": {
+        "usage-des-sols": 4440,
+        "amenagement-urbanisme-zonages-planification": 4012,
+        "plu": 1747,
+        "urbanisme": 1309,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 1052,
+        "document-durbanisme": 1029,
+        "amenagement-urbanisme-assiette-servitude": 850,
+        "servitude": 552,
+        "planification": 526,
+        "prevention": 459
+      },
+      "Construction & habitat": {
+        "habitat": 502,
+        "logement": 448,
+        "habitats-et-biotopes": 268,
+        "habitat-politique-de-la-ville-politique": 215,
+        "urbanisme": 205,
+        "mer": 199,
+        "amenagement-du-territoire-urbanisme-batiments-equipements-logement": 176,
+        "amenagement": 168,
+        "urbanisme-et-logements": 167,
+        "plu": 158
+      },
+      "Immobilier": {
+        "immobilier": 46,
+        "prix": 12,
+        "dvf": 6,
+        "encadrement": 6,
+        "loyer": 6,
+        "immobiliers": 6,
+        "encadrement-des-loyers": 5,
+        "paris": 5,
+        "prix-immobilier": 4,
+        "etudes": 4
+      },
+      "Cadastre & foncier": {
+        "planning-cadastre": 4351,
+        "usage-des-sols": 3563,
+        "plu": 1356,
+        "document-durbanisme": 940,
+        "cadastre": 407,
+        "grand-public": 356,
+        "urbanisme": 254,
+        "pos": 200,
+        "parcelles-cadastrales": 173,
+        "rhone-alpes": 173
       }
     },
     "Culture & Patrimoine": {
@@ -459,48 +551,6 @@
         "atlantique": 24
       }
     },
-    "Justice & Securite": {
-      "Securite & police": {
-        "securite": 119,
-        "police": 84,
-        "2019": 45,
-        "deliberation": 36,
-        "surveillance": 34,
-        "grand-public": 30,
-        "convention": 29,
-        "securite-civile": 27,
-        "police-municipale": 26,
-        "zones-a-risque-naturel": 23
-      },
-      "Secours & incendie": {
-        "incendie": 74,
-        "risque-zonages-risque-naturel": 65,
-        "risque": 63,
-        "zones-a-risque-naturel": 60,
-        "secours": 26,
-        "sdis": 14,
-        "pprif": 12,
-        "pompiers": 11,
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 10,
-        "pompier": 8
-      },
-      "Justice": {
-        "justice": 19,
-        "discrimination": 7,
-        "egalite": 7,
-        "tribunal": 5,
-        "droit": 4,
-        "judiciaire": 3,
-        "avocat": 2,
-        "avocats": 2,
-        "barreau": 2,
-        "barreaux": 2
-      },
-      "Autre": {
-        "prison": 3,
-        "amenagement-de-peine": 2
-      }
-    },
     "Numerique": {
       "Autre": {
         "altitude": 160,
@@ -609,56 +659,6 @@
         "amenagement-du-territoire": 41,
         "cartes": 40,
         "grand-est": 40
-      }
-    },
-    "Logement & Urbanisme": {
-      "Amenagement du territoire": {
-        "usage-des-sols": 4440,
-        "amenagement-urbanisme-zonages-planification": 4012,
-        "plu": 1747,
-        "urbanisme": 1308,
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 1052,
-        "document-durbanisme": 1029,
-        "amenagement-urbanisme-assiette-servitude": 850,
-        "servitude": 552,
-        "planification": 526,
-        "prevention": 459
-      },
-      "Construction & habitat": {
-        "habitat": 502,
-        "logement": 447,
-        "habitats-et-biotopes": 268,
-        "habitat-politique-de-la-ville-politique": 215,
-        "urbanisme": 205,
-        "mer": 199,
-        "amenagement-du-territoire-urbanisme-batiments-equipements-logement": 176,
-        "amenagement": 168,
-        "urbanisme-et-logements": 167,
-        "plu": 158
-      },
-      "Immobilier": {
-        "immobilier": 46,
-        "prix": 12,
-        "dvf": 6,
-        "encadrement": 6,
-        "loyer": 6,
-        "immobiliers": 6,
-        "encadrement-des-loyers": 5,
-        "paris": 5,
-        "prix-immobilier": 4,
-        "etudes": 4
-      },
-      "Cadastre & foncier": {
-        "planning-cadastre": 4351,
-        "usage-des-sols": 3563,
-        "plu": 1356,
-        "document-durbanisme": 940,
-        "cadastre": 407,
-        "grand-public": 356,
-        "urbanisme": 254,
-        "pos": 200,
-        "parcelles-cadastrales": 173,
-        "rhone-alpes": 173
       }
     },
     "International": {
@@ -842,9 +842,16 @@
   },
   "subtag_recent": {
     "Environnement & Energie": {
+      "Forets": [
+        "foret",
+        "foret-dfci",
+        "herault"
+      ],
       "Climat & risques naturels": [
         "inondation",
+        "risque",
         "risque-zonages-risque-naturel",
+        "zones-a-risque-naturel",
         "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
       ],
       "Biodiversite & ecologie": [
@@ -886,9 +893,6 @@
         "tourisme",
         "velo"
       ],
-      "Forets": [
-        "foret"
-      ],
       "Dechets & recyclage": [
         "collecte",
         "dechet",
@@ -900,11 +904,28 @@
         "verre"
       ]
     },
+    "Justice & Securite": {
+      "Secours & incendie": [
+        "incendie",
+        "pompiers"
+      ],
+      "Securite & police": [
+        "police",
+        "securite"
+      ],
+      "Justice": [
+        "droit",
+        "judiciaire",
+        "justice"
+      ]
+    },
     "Collectivites & Administration": {
       "Regions & departements": [
         "commande-publique",
         "donnees-essentielles",
         "geospatial",
+        "ortho-imagerie",
+        "photographies-aeriennes",
         "region",
         "risque-zonages-risque-naturel",
         "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
@@ -933,6 +954,33 @@
         "elus",
         "legislatives",
         "vote"
+      ]
+    },
+    "Logement & Urbanisme": {
+      "Amenagement du territoire": [
+        "amenagement-urbanisme-zonages-planification",
+        "document-durbanisme",
+        "planification",
+        "plu",
+        "urbanisme",
+        "usage-des-sols",
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
+      ],
+      "Construction & habitat": [
+        "amenagement",
+        "amenagement-du-territoire-urbanisme-batiments-equipements-logement",
+        "habitat",
+        "logement",
+        "urbanisme",
+        "urbanisme-et-logements"
+      ],
+      "Immobilier": [
+        "dvf",
+        "immobilier"
+      ],
+      "Cadastre & foncier": [
+        "cadastre",
+        "urbanisme"
       ]
     },
     "Culture & Patrimoine": {
@@ -993,6 +1041,7 @@
         "medecin",
         "medecins",
         "sante",
+        "sante-et-systeme-de-soins",
         "soins"
       ],
       "Handicap & medico-social": [
@@ -1081,21 +1130,6 @@
         "transport-maritime"
       ]
     },
-    "Justice & Securite": {
-      "Securite & police": [
-        "police",
-        "securite"
-      ],
-      "Secours & incendie": [
-        "incendie",
-        "pompiers"
-      ],
-      "Justice": [
-        "droit",
-        "judiciaire",
-        "justice"
-      ]
-    },
     "Numerique": {
       "Autre": [
         "inclusion-numerique",
@@ -1170,46 +1204,13 @@
         "fiscalite"
       ]
     },
-    "Logement & Urbanisme": {
-      "Amenagement du territoire": [
-        "amenagement-urbanisme-zonages-planification",
-        "planification",
-        "plu",
-        "urbanisme",
-        "usage-des-sols",
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
-      ],
-      "Construction & habitat": [
-        "amenagement",
-        "amenagement-du-territoire-urbanisme-batiments-equipements-logement",
-        "habitat",
-        "logement",
-        "urbanisme",
-        "urbanisme-et-logements"
-      ],
-      "Immobilier": [
-        "dvf",
-        "immobilier"
-      ],
-      "Cadastre & foncier": [
-        "cadastre",
-        "urbanisme"
-      ]
-    },
     "Agriculture & Alimentation": {
       "Elevage & peche": [
         "mer",
         "peche"
       ],
       "Production agricole": [
-        "agriculture",
-        "artificialisation",
-        "couverture",
-        "evolution",
-        "naf",
-        "nature",
-        "occupation-du-sol",
-        "usage"
+        "agriculture"
       ],
       "Alimentation": [
         "alimentation"
@@ -1272,9 +1273,7 @@
       ],
       "Conditions de travail": [
         "remuneration",
-        "salaire",
-        "salaires",
-        "statistiques"
+        "salaire"
       ]
     }
   },
@@ -1288,17 +1287,17 @@
     "Communauté d'Agglomération du Saint-Quentinois": 2615,
     "Direction Départementale des Territoires du Cher": 2088,
     "DataGrandEst": 1997,
+    "Région Auvergne-Rhône-Alpes": 1963,
     "Direction Départementale des Territoires de l'Ariège": 1959,
-    "Région Auvergne-Rhône-Alpes": 1957,
     "Direction Départementale des Territoires et de la Mer de la Somme": 1879,
     "Direction Départementale des Territoires et de la Mer des Pyrénées-Atlantiques": 1873,
     "Région Île-de-France": 1473,
     "Communauté d'Agglomération Plaine Vallée": 1386
   },
   "license_counts_top": {
-    "Licence Ouverte / Open Licence version 2.0": 62959,
+    "Licence Ouverte / Open Licence version 2.0": 62966,
     "License Not Specified": 37030,
-    "Licence Ouverte / Open Licence": 11012,
+    "Licence Ouverte / Open Licence": 11018,
     "Open Data Commons Open Database License (ODbL)": 7501,
     "Other (Attribution)": 5995,
     "(non renseigne)": 5467,
@@ -1308,15 +1307,15 @@
     "Creative Commons Attribution Share-Alike": 164
   },
   "format_counts_top": {
-    "CSV": 43303,
-    "JSON": 35413,
-    "ZIP": 26568,
-    "WMS": 22819,
-    "WFS": 21501,
+    "CSV": 43306,
+    "JSON": 35420,
+    "ZIP": 26570,
+    "WMS": 22830,
+    "WFS": 21511,
     "SHP": 18464,
-    "ESRI SHAPEFILE (SHP)": 15289,
-    "PDF": 8785,
-    "GEOJSON": 8177,
+    "ESRI SHAPEFILE (SHP)": 15292,
+    "PDF": 8786,
+    "GEOJSON": 8178,
     "WEB PAGE": 6996
   },
   "new_items": [
@@ -1356,8 +1355,120 @@
       "organization": "DDT de l'Isère"
     },
     {
-      "title": "Arrêtés réglementaires à Issy-les-Moulineaux",
-      "url": "https://www.data.gouv.fr/datasets/arretes-reglementaires-a-issy-les-moulineaux",
+      "title": "Messages d'actualité me-déplacer",
+      "url": "https://www.data.gouv.fr/datasets/messages-dactualite-me-deplacer",
+      "domain": "Transport & Mobilite",
+      "sub_domain": "Trafic & stationnement",
+      "organization": "Île-de-France Mobilités"
+    },
+    {
+      "title": "Evolution de la dette à Issy-les-Moulineaux",
+      "url": "https://www.data.gouv.fr/datasets/evolution-de-la-dette-a-issy-les-moulineaux",
+      "domain": "Economie & Finances",
+      "sub_domain": "Finances publiques & budget",
+      "organization": "Ville d'Issy-les-Moulineaux"
+    },
+    {
+      "title": "Délibérations Commune de Castelnau-d'Estrétefonds",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castelnau-destretefonds",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Castelmaurou",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castelmaurou",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Cazères-sur-Garonne",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-cazeres-sur-garonne",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Fontenilles",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-fontenilles",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Labège",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-labege",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Communauté de Communes Coeur de Garonne",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-communaute-de-communes-coeur-de-garonne",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Ramonville-Saint-Agne",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-ramonville-saint-agne",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune d'Auterive",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-dauterive",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "État des ascenseurs",
+      "url": "https://www.data.gouv.fr/datasets/etat-des-ascenseurs",
+      "domain": "Numerique",
+      "sub_domain": "Autre",
+      "organization": "Île-de-France Mobilités"
+    },
+    {
+      "title": "Evénements affectant la circulation parisienne",
+      "url": "https://www.data.gouv.fr/datasets/evenements-affectant-la-circulation-parisienne",
+      "domain": "Transport & Mobilite",
+      "sub_domain": "Reseaux routiers",
+      "organization": "Ville de Paris"
+    },
+    {
+      "title": "Equipements Défibrillateurs",
+      "url": "https://www.data.gouv.fr/datasets/equipements-defibrillateurs",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "SNCF"
+    },
+    {
+      "title": "Délibérations Commune de Castanet-Tolosan",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castanet-tolosan",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Plan d'action données algorithmes et codes sources - les projets",
+      "url": "https://www.data.gouv.fr/datasets/plan-daction-donnees-algorithmes-et-codes-sources-les-projets",
+      "domain": "Education & Recherche",
+      "sub_domain": "Autre",
+      "organization": "Ministères de l'Éducation nationale"
+    },
+    {
+      "title": "VélÔToulouse - Disponibilité temps réel",
+      "url": "https://www.data.gouv.fr/datasets/velotoulouse-disponibilite-temps-reel",
+      "domain": "Transport & Mobilite",
+      "sub_domain": "Mobilites actives",
+      "organization": "Toulouse métropole"
+    },
+    {
+      "title": "🔎 Délibérations du Conseil Municipal d'Issy-les-Moulineaux",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-du-conseil-municipal-dissy-les-moulineaux-2",
       "domain": "Economie & Finances",
       "sub_domain": "Autre",
       "organization": "Ville d'Issy-les-Moulineaux"
@@ -1370,53 +1481,11 @@
       "organization": "Ville d'Issy-les-Moulineaux"
     },
     {
-      "title": "📑 Ordres du jour et listes des délibérations du Conseil Municipal d'Issy-les-Moulineaux",
-      "url": "https://www.data.gouv.fr/datasets/ordres-du-jour-et-listes-des-deliberations-du-conseil-municipal-dissy-les-moulineaux",
+      "title": "Arrêtés réglementaires à Issy-les-Moulineaux",
+      "url": "https://www.data.gouv.fr/datasets/arretes-reglementaires-a-issy-les-moulineaux",
       "domain": "Economie & Finances",
       "sub_domain": "Autre",
       "organization": "Ville d'Issy-les-Moulineaux"
-    },
-    {
-      "title": "🔎 Délibérations du Conseil Municipal d'Issy-les-Moulineaux",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-du-conseil-municipal-dissy-les-moulineaux-2",
-      "domain": "Economie & Finances",
-      "sub_domain": "Autre",
-      "organization": "Ville d'Issy-les-Moulineaux"
-    },
-    {
-      "title": "Evénements affectant la circulation parisienne",
-      "url": "https://www.data.gouv.fr/datasets/evenements-affectant-la-circulation-parisienne",
-      "domain": "Transport & Mobilite",
-      "sub_domain": "Reseaux routiers",
-      "organization": "Ville de Paris"
-    },
-    {
-      "title": "Evolution de la dette à Issy-les-Moulineaux",
-      "url": "https://www.data.gouv.fr/datasets/evolution-de-la-dette-a-issy-les-moulineaux",
-      "domain": "Economie & Finances",
-      "sub_domain": "Finances publiques & budget",
-      "organization": "Ville d'Issy-les-Moulineaux"
-    },
-    {
-      "title": "Disponibilité dans les Parking à Angers",
-      "url": "https://www.data.gouv.fr/datasets/disponibilite-dans-les-parking-a-angers",
-      "domain": "Transport & Mobilite",
-      "sub_domain": "Trafic & stationnement",
-      "organization": "Angers Loire Métropole"
-    },
-    {
-      "title": "VélÔToulouse - Disponibilité temps réel",
-      "url": "https://www.data.gouv.fr/datasets/velotoulouse-disponibilite-temps-reel",
-      "domain": "Transport & Mobilite",
-      "sub_domain": "Mobilites actives",
-      "organization": "Toulouse métropole"
-    },
-    {
-      "title": "État des ascenseurs",
-      "url": "https://www.data.gouv.fr/datasets/etat-des-ascenseurs",
-      "domain": "Numerique",
-      "sub_domain": "Autre",
-      "organization": "Île-de-France Mobilités"
     },
     {
       "title": "Etat de fonctionnement des équipements d'élévatique en gare",
@@ -1429,6 +1498,13 @@
       "title": "Réalisations des conseils de quartier depuis 2013",
       "url": "https://www.data.gouv.fr/datasets/realisations-des-conseils-de-quartier-depuis-2013",
       "domain": "Environnement & Energie",
+      "sub_domain": "Autre",
+      "organization": "Ville d'Issy-les-Moulineaux"
+    },
+    {
+      "title": "📑 Ordres du jour et listes des délibérations du Conseil Municipal d'Issy-les-Moulineaux",
+      "url": "https://www.data.gouv.fr/datasets/ordres-du-jour-et-listes-des-deliberations-du-conseil-municipal-dissy-les-moulineaux",
+      "domain": "Economie & Finances",
       "sub_domain": "Autre",
       "organization": "Ville d'Issy-les-Moulineaux"
     },
@@ -1447,8 +1523,8 @@
       "organization": "Région Île-de-France"
     },
     {
-      "title": "Délibérations Commune de Castelnau-d'Estrétefonds",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castelnau-destretefonds",
+      "title": "Délibérations Commune de Roques",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-roques",
       "domain": "Collectivites & Administration",
       "sub_domain": "Communes & intercommunalites",
       "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
@@ -1461,81 +1537,11 @@
       "organization": "Toulouse métropole"
     },
     {
-      "title": "Délibérations Commune d'Auterive",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-dauterive",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Commune de Labège",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-labege",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Commune de Roques",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-roques",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Commune de Cazères-sur-Garonne",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-cazeres-sur-garonne",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Communauté de Communes Coeur de Garonne",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-communaute-de-communes-coeur-de-garonne",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Commune de Fontenilles",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-fontenilles",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Commune de Castelmaurou",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castelmaurou",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
       "title": "Part des EnR et intensité en émissions de GES de l’électricité consommée en France en temps réel",
       "url": "https://www.data.gouv.fr/datasets/part-des-enr-et-intensite-en-emissions-de-ges-de-lelectricite-consommee-en-france-en-temps-reel",
       "domain": "Environnement & Energie",
       "sub_domain": "Autre",
       "organization": "Open Data Réseaux Énergies"
-    },
-    {
-      "title": "Délibérations Commune de Castanet-Tolosan",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castanet-tolosan",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Equipements Défibrillateurs",
-      "url": "https://www.data.gouv.fr/datasets/equipements-defibrillateurs",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "SNCF"
-    },
-    {
-      "title": "Délibérations Commune de Ramonville-Saint-Agne",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-ramonville-saint-agne",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
     },
     {
       "title": "Etat du trafic en temps réel",
@@ -1587,21 +1593,21 @@
       "organization": "Rennes Métropole en accès libre"
     },
     {
-      "title": "Carrefours Feux Sonores - Toulouse Métropole",
-      "url": "https://www.data.gouv.fr/datasets/carrefours-feux-sonores-toulouse-metropole",
-      "domain": "Transport & Mobilite",
-      "sub_domain": "Trafic & stationnement",
-      "organization": "Toulouse métropole"
-    },
-    {
-      "title": "assistant-ia-dinum-deploiement-au-ministere-de-leducation-nationale-en-academie",
-      "url": "https://www.data.gouv.fr/datasets/assistant-ia-dinum-deploiement-au-ministere-de-leducation-nationale-en-academie",
-      "domain": "Numerique",
-      "sub_domain": "Autre",
-      "organization": "Ministères de l'Éducation nationale"
+      "title": "Agenda des animations Île-de-France Nature",
+      "url": "https://www.data.gouv.fr/datasets/agenda-des-animations-ile-de-france-nature",
+      "domain": "Environnement & Energie",
+      "sub_domain": "Forets",
+      "organization": "Région Île-de-France"
     }
   ],
   "updated_items": [
+    {
+      "title": "Paquets Arome - Résolution 0,025°",
+      "url": "https://www.data.gouv.fr/datasets/paquets-arome-resolution-0-025deg",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Météo-France"
+    },
     {
       "title": "Bornes de Recharge pour Véhicules Électriques Wattzhub",
       "url": "https://www.data.gouv.fr/datasets/bornes-de-recharge-pour-vehicules-electriques-wattzhub-1",
@@ -1615,13 +1621,6 @@
       "domain": "Autre / Non classe",
       "sub_domain": null,
       "organization": "Haute Autorité de santé"
-    },
-    {
-      "title": "IRVE dynamique (organisation Parera Mobilité)",
-      "url": "https://www.data.gouv.fr/datasets/irve-dynamique-organisation-parera-mobilite",
-      "domain": "Transport & Mobilite",
-      "sub_domain": "Autre",
-      "organization": "PARERA MOBILITE"
     },
     {
       "title": "IRVE statique & dynamique (e-clearing.net)",
@@ -1638,18 +1637,18 @@
       "organization": "Météo-France"
     },
     {
+      "title": "IRVE dynamique (organisation Parera Mobilité)",
+      "url": "https://www.data.gouv.fr/datasets/irve-dynamique-organisation-parera-mobilite",
+      "domain": "Transport & Mobilite",
+      "sub_domain": "Autre",
+      "organization": "PARERA MOBILITE"
+    },
+    {
       "title": "Projets de Recherche ADEME - Vue agrégée 2014-2020",
       "url": "https://www.data.gouv.fr/datasets/projets-de-recherche-ademe-vue-agregee-2014-2020",
       "domain": "Education & Recherche",
       "sub_domain": "Recherche",
       "organization": "ADEME"
-    },
-    {
-      "title": "Paquets Arome - Résolution 0,025°",
-      "url": "https://www.data.gouv.fr/datasets/paquets-arome-resolution-0-025deg",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "Météo-France"
     },
     {
       "title": "Projets de Recherche ADEME - Vue agrégée depuis 2021",
@@ -1666,6 +1665,13 @@
       "organization": "ADEME"
     },
     {
+      "title": "Projets de Recherche ADEME - Vue détaillée depuis 2021",
+      "url": "https://www.data.gouv.fr/datasets/projets-de-recherche-ademe-vue-detaillee-depuis-2021",
+      "domain": "Education & Recherche",
+      "sub_domain": "Recherche",
+      "organization": "ADEME"
+    },
+    {
       "title": "REP - Liste des producteurs enregistrés dans SYDEREP avec leur identifiant unique",
       "url": "https://www.data.gouv.fr/datasets/rep-liste-des-producteurs-enregistres-dans-syderep-avec-leur-identifiant-unique",
       "domain": "Environnement & Energie",
@@ -1673,18 +1679,11 @@
       "organization": "ADEME"
     },
     {
-      "title": "Liste des expériences partagées par les usagers",
-      "url": "https://www.data.gouv.fr/datasets/liste-des-experiences-partagees-par-les-usagers",
-      "domain": "Economie & Finances",
-      "sub_domain": "Autre",
-      "organization": "Direction Interministérielle de la Transformation Publique"
-    },
-    {
-      "title": "Projets de Recherche ADEME - Vue détaillée depuis 2021",
-      "url": "https://www.data.gouv.fr/datasets/projets-de-recherche-ademe-vue-detaillee-depuis-2021",
-      "domain": "Education & Recherche",
-      "sub_domain": "Recherche",
-      "organization": "ADEME"
+      "title": "PE Arpege GLOB025",
+      "url": "https://www.data.gouv.fr/datasets/pe-arpege-glob025",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Météo-France"
     },
     {
       "title": "Produits d’Indices Biométéorologiques - UV",
@@ -1701,13 +1700,6 @@
       "organization": "ADEME"
     },
     {
-      "title": "PE Arpege GLOB025",
-      "url": "https://www.data.gouv.fr/datasets/pe-arpege-glob025",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "Météo-France"
-    },
-    {
       "title": "PCAET (v1) - Démarches - Partie 4",
       "url": "https://www.data.gouv.fr/datasets/pcaet-v1-demarches-partie-4",
       "domain": "Environnement & Energie",
@@ -1715,46 +1707,18 @@
       "organization": "ADEME"
     },
     {
+      "title": "Données essentielles de la commande publique consolidées (format tabulaire)",
+      "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-consolidees-format-tabulaire",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Colmo"
+    },
+    {
       "title": "Données essentielles des conventions de subvention",
       "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-des-conventions-de-subvention-5",
       "domain": "Culture & Patrimoine",
       "sub_domain": "Autre",
       "organization": "Ministère de la Culture"
-    },
-    {
-      "title": "Jointure BOAMP - SIREN / Côté acheteurs / 2024, 2025 et 2026",
-      "url": "https://www.data.gouv.fr/datasets/jointure-boamp-siren-cote-acheteurs-2024-2025-et-2026",
-      "domain": "Economie & Finances",
-      "sub_domain": "Marches publics",
-      "organization": "AuFilDuBoamp.com"
-    },
-    {
-      "title": "Historique des groupes politiques de l'Assemblée nationale (depuis 2012) - Informations et statistiques",
-      "url": "https://www.data.gouv.fr/datasets/historique-des-groupes-politiques-de-lassemblee-nationale-depuis-2012-informations-et-statistiques",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "Datan"
-    },
-    {
-      "title": "Historique des députés de l'Assemblée nationale (depuis 2002) - Informations et statistiques",
-      "url": "https://www.data.gouv.fr/datasets/historique-des-deputes-de-lassemblee-nationale-depuis-2002-informations-et-statistiques",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "Datan"
-    },
-    {
-      "title": "Groupes politiques actifs de l'Assemblée nationale - Informations et statistiques",
-      "url": "https://www.data.gouv.fr/datasets/groupes-politiques-actifs-de-lassemblee-nationale-informations-et-statistiques",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "Datan"
-    },
-    {
-      "title": "Députés actifs de l'Assemblée nationale - Informations et statistiques",
-      "url": "https://www.data.gouv.fr/datasets/deputes-actifs-de-lassemblee-nationale-informations-et-statistiques",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "Datan"
     },
     {
       "title": "PCAET (v1) - Démarches - Partie 2",
@@ -1792,34 +1756,6 @@
       "organization": "ADEME"
     },
     {
-      "title": "Index de l'égalité professionnelle femmes-hommes, par département et secteur",
-      "url": "https://www.data.gouv.fr/datasets/index-de-legalite-professionnelle-femmes-hommes-par-departement-et-secteur",
-      "domain": "Emploi & Travail",
-      "sub_domain": "Marche du travail",
-      "organization": "Firmio"
-    },
-    {
-      "title": "Conventions collectives appliquées, par département et secteur d'activité",
-      "url": "https://www.data.gouv.fr/datasets/conventions-collectives-appliquees-par-departement-et-secteur-dactivite",
-      "domain": "Emploi & Travail",
-      "sub_domain": "Marche du travail",
-      "organization": "Firmio"
-    },
-    {
-      "title": "Créations d'entreprises par commune, rapportées à la population",
-      "url": "https://www.data.gouv.fr/datasets/creations-dentreprises-par-commune-rapportees-a-la-population",
-      "domain": "Economie & Finances",
-      "sub_domain": "Entreprises & commerce",
-      "organization": "Firmio"
-    },
-    {
-      "title": "Ouvertures de procédures collectives en France, par département, secteur et mois",
-      "url": "https://www.data.gouv.fr/datasets/ouvertures-de-procedures-collectives-en-france-par-departement-secteur-et-mois",
-      "domain": "Economie & Finances",
-      "sub_domain": "Entreprises & commerce",
-      "organization": "Firmio"
-    },
-    {
       "title": "PCAET (v2) - Démarches - Partie 4",
       "url": "https://www.data.gouv.fr/datasets/pcaet-v2-demarches-partie-4",
       "domain": "Environnement & Energie",
@@ -1841,6 +1777,13 @@
       "organization": "Eco-Movement"
     },
     {
+      "title": "PE Arpege EURAT01",
+      "url": "https://www.data.gouv.fr/datasets/pe-arpege-eurat01",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Météo-France"
+    },
+    {
       "title": "Paquets de modèle de vagues haute résolution - WW3-WARP - Résolution 0.1°",
       "url": "https://www.data.gouv.fr/datasets/paquets-de-modele-de-vagues-haute-resolution-ww3-warp-resolution-0-1deg",
       "domain": "Autre / Non classe",
@@ -1848,11 +1791,11 @@
       "organization": "Météo-France"
     },
     {
-      "title": "PE Arpege EURAT01",
-      "url": "https://www.data.gouv.fr/datasets/pe-arpege-eurat01",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "Météo-France"
+      "title": "Données de la Présence Numérique des Territoires ",
+      "url": "https://www.data.gouv.fr/datasets/donnees-de-la-presence-numerique-des-territoires",
+      "domain": "Numerique",
+      "sub_domain": "Cybersecurite",
+      "organization": "Agence nationale de la cohésion des territoires"
     },
     {
       "title": "Paquets de modèle de vagues haute résolution - WW3-MARO - Résolution 0.1°",
@@ -1869,11 +1812,32 @@
       "organization": "Météo-France"
     },
     {
-      "title": "Données de la Présence Numérique des Territoires ",
-      "url": "https://www.data.gouv.fr/datasets/donnees-de-la-presence-numerique-des-territoires",
-      "domain": "Numerique",
-      "sub_domain": "Cybersecurite",
-      "organization": "Agence nationale de la cohésion des territoires"
+      "title": "Paquets de modèle de vagues - MFWAM - Résolution 0.025°",
+      "url": "https://www.data.gouv.fr/datasets/paquets-de-modele-de-vagues-mfwam-resolution-0-025deg",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Météo-France"
+    },
+    {
+      "title": "Dossiers d'information mairie",
+      "url": "https://www.data.gouv.fr/datasets/dossiers-dinformation-mairie",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Brest métropole"
+    },
+    {
+      "title": "Donnée Sécheresse - VigiEau",
+      "url": "https://www.data.gouv.fr/datasets/donnee-secheresse-vigieau",
+      "domain": "Environnement & Energie",
+      "sub_domain": "Climat & risques naturels",
+      "organization": "Ministère de la Transition écologique"
+    },
+    {
+      "title": "Points tri des emballages et des papiers",
+      "url": "https://www.data.gouv.fr/datasets/points-tri-des-emballages-et-des-papiers",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Sitcom Côte sud des Landes"
     },
     {
       "title": "Paquets de modèle de vagues - MFWAM - Résolution 0.1°",
@@ -1881,6 +1845,41 @@
       "domain": "Autre / Non classe",
       "sub_domain": null,
       "organization": "Météo-France"
+    },
+    {
+      "title": "Déploiement des services de l'Incubateur des territoires",
+      "url": "https://www.data.gouv.fr/datasets/deploiement-des-services-de-lincubateur-des-territoires",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Autre",
+      "organization": "Agence nationale de la cohésion des territoires"
+    },
+    {
+      "title": "Prévisions des prix du carburants de 1 à 31 jours (France)",
+      "url": "https://www.data.gouv.fr/datasets/previsions-des-prix-du-carburants-de-1-a-31-jours-france",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Chiffrex"
+    },
+    {
+      "title": "Délibérations Communauté de Communes du Frontonnais",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-communaute-de-communes-du-frontonnais",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Paquets Arpège - Résolution 0,25°",
+      "url": "https://www.data.gouv.fr/datasets/paquets-arpege-resolution-0-25deg",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Météo-France"
+    },
+    {
+      "title": "Délibérations Bassin Auterivain, communauté de communes",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-bassin-auterivain-communaute-de-communes",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
     }
   ]
 }

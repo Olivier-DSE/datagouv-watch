@@ -27,10 +27,17 @@ Log "=== Weekly data.gouv.fr watch: starting $timestamp ==="
 
 try {
     Log "--- git pull ---"
+    $ErrorActionPreference = "Continue"
     git pull --ff-only 2>&1 | ForEach-Object { Log $_ }
+    $ErrorActionPreference = "Stop"
+    if ($LASTEXITCODE -ne 0) {
+        throw "git pull exited with code $LASTEXITCODE"
+    }
 
     Log "--- running pipeline.py ---"
+    $ErrorActionPreference = "Continue"
     python pipeline.py --download --digest-json digest_latest.json 2>&1 | ForEach-Object { Log $_ }
+    $ErrorActionPreference = "Stop"
     if ($LASTEXITCODE -ne 0) {
         throw "pipeline.py exited with code $LASTEXITCODE"
     }
@@ -40,7 +47,13 @@ try {
     $status = git status --porcelain digest_latest.json tag_links.json
     if ($status) {
         git commit -m "Weekly digest $timestamp"
+        if ($LASTEXITCODE -ne 0) {
+            throw "git commit exited with code $LASTEXITCODE"
+        }
         git push
+        if ($LASTEXITCODE -ne 0) {
+            throw "git push exited with code $LASTEXITCODE"
+        }
         Log "Pushed updated digest_latest.json and tag_links.json."
     } else {
         Log "Nothing changed, nothing to commit."
@@ -49,6 +62,6 @@ try {
     Log "=== Finished OK: $(Get-Date -Format 'yyyy-MM-dd_HHmmss') ==="
 } catch {
     Log "!!! FAILED: $($_.Exception.Message)"
-    Log "No commit/push made for a failed run — GitHub still holds the last good digest."
+    Log "No commit/push made for a failed run - GitHub still holds the last good digest."
     exit 1
 }

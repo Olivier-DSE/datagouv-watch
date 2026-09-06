@@ -94,6 +94,36 @@ steps work as-is; no further git setup is needed. It lives at
 `C:\Users\PERFORM2235\Claude_Projects\datagouv-watch` on this machine, which
 `run-weekly.ps1`'s `$repoDir` points at.
 
+### Known quirks
+
+- **The Windows Scheduled Task's action is not derived from anything in this
+  repo** — it's a separate object in Task Scheduler holding its own program
+  path and arguments, independent of `run-weekly.ps1`'s `$repoDir`. If this
+  repo ever moves again, updating the script and this file is not enough:
+  the task's action must be updated too, or it'll fail at launch on its next
+  fire. Because the task runs "whether logged on or not" (stored-password
+  logon), *any* edit to it — via `Set-ScheduledTask`, `schtasks /Change`, or
+  even just clicking OK in the Task Scheduler GUI — requires re-entering the
+  Windows account password to re-save the credential; there's no way around
+  this programmatically. The GUI is also fragile here: editing the task's
+  Name field while fixing the Action can silently drop the weekly trigger,
+  leaving a task with the right action but no schedule at all (happened
+  once). The reliable fix is to delete and recreate the task in one shot:
+  ```
+  schtasks /Create /TN "DataGouvWatchWeekly" /TR "\"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe\" -NoProfile -ExecutionPolicy Bypass -File \"C:\Users\PERFORM2235\Claude_Projects\datagouv-watch\run-weekly.ps1\"" /SC WEEKLY /D FRI /ST 17:00 /RU PERFORM2235 /RP *
+  ```
+  `/RP *` makes it prompt interactively for the password instead of needing
+  it inline — run this from an interactive terminal, not unattended.
+- **Manually re-running the cloud routine is not a reliable health check.**
+  Triggering `datagouv-watch-weekly` on demand (via the routines UI or the
+  API's `run` action) can hit a permission prompt on its Artifact `write_db`
+  call that the actual Friday cron fire does not hit, leaving the run stuck
+  in `requires_action` indefinitely with no way to approve it
+  programmatically — it just sits there until it gets archived, unresolved.
+  This has happened on more than one manual trigger. The scheduled fire
+  itself has run clean every week. So when checking whether this routine is
+  healthy, trust its last *scheduled* run's status, not a manual test run.
+
 ## Gitignored / regenerated files
 
 `catalog.csv`, `reports/`, `run-logs/`, and `tag_links_split/` are

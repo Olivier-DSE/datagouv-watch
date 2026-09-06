@@ -8,7 +8,7 @@
 
 $ErrorActionPreference = "Stop"
 
-$repoDir = "C:\Users\PERFORM2235\datagouv-watch"
+$repoDir = "C:\Users\PERFORM2235\Claude_Projects\datagouv-watch"
 $logDir = Join-Path $repoDir "run-logs"
 
 Set-Location $repoDir

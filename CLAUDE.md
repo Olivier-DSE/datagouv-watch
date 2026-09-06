@@ -66,25 +66,33 @@ Everything lives in `pipeline.py`, run top to bottom as a single-pass script
 This pipeline runs in two disconnected places, and the split is load-bearing,
 not incidental:
 
-- **Locally, via `run-weekly.ps1`** (triggered by a Windows Scheduled Task on
-  this machine) — does the actual download, classification, and digest
-  build, then commits and pushes `digest_latest.json` + `tag_links.json` to
-  GitHub. This step *must* run locally because data.gouv.fr blocks Anthropic's
-  cloud sandbox IPs mid-TLS-handshake, so the download cannot happen from a
-  cloud routine.
-- **In the cloud, via the scheduled routine `datagouv-watch-weekly`** — picks
-  up the pushed digest shortly after and pushes it into the dashboard
-  Artifact's database. The exact push step lives in that routine's prompt,
-  not in this repo.
+- **Locally, via `run-weekly.ps1`** (triggered by the Windows Scheduled Task
+  `DataGouvWatchWeekly` on this machine, configured to run whether the user
+  is logged on or not — fires Fridays at 17:00 local time) — does the actual
+  download, classification, and digest build, then commits and pushes
+  `digest_latest.json` + `tag_links.json` to GitHub
+  (https://github.com/Olivier-DSE/datagouv-watch). This step *must* run
+  locally because data.gouv.fr blocks Anthropic's cloud sandbox IPs
+  mid-TLS-handshake, so the download cannot happen from a cloud routine.
+  `git push` authenticates via Windows Git Credential Manager (a cached
+  HTTPS credential); if that ever expires, the push could start failing on
+  a machine with nobody watching — the cloud routine below is the backstop
+  that catches this.
+- **In the cloud, via the scheduled routine `datagouv-watch-weekly`** (fires
+  Fridays 15:30 UTC, ~30 min after the local run) — pulls the repo, checks
+  that `digest_latest.json`'s `date` field is actually today's date, and if
+  so pushes it plus `tag_links.json` into the dashboard Artifact's database
+  (`digests` and `tag_links` collections, one doc per date/domain). If the
+  digest is stale (local run didn't land) or any step errors out, it sends a
+  push + email notification describing the failure instead of silently
+  pushing nothing — see the routine's prompt (in the routines list, not this
+  repo) for the exact logic.
 
-`run-weekly.ps1` hardcodes `$repoDir = "C:\Users\PERFORM2235\datagouv-watch"`,
-which now matches this directory's actual name (the earlier mismatch with
-`my-first-agent` has been resolved). What's still outstanding: this directory
-is not yet a git repository (no `.git`, no remote), so the script's
-`git pull`/`git commit`/`git push` steps will still fail as-is. If you're
-asked to fix the weekly run, start there — `git init`, add the GitHub
-remote, and get `digest_latest.json`/`tag_links.json` committed at least
-once — rather than assuming something else is broken.
+This directory is a real git repo (`main`, tracking `origin/main` on the
+GitHub remote above) — `run-weekly.ps1`'s `git pull`/`git commit`/`git push`
+steps work as-is; no further git setup is needed. It lives at
+`C:\Users\PERFORM2235\Claude_Projects\datagouv-watch` on this machine, which
+`run-weekly.ps1`'s `$repoDir` points at.
 
 ## Gitignored / regenerated files
 

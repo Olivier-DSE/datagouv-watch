@@ -1,23 +1,23 @@
 {
-  "date": "2026-09-04",
-  "generated_at": "2026-09-04T15:07:48.897249+00:00",
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T08:33:58.516582+00:00",
   "window_days": 8,
-  "total": 130816,
-  "new_count": 1277,
-  "updated_count": 1748,
+  "total": 130920,
+  "new_count": 1173,
+  "updated_count": 2371,
   "archived_count": 0,
   "domain_counts": {
-    "Autre / Non classe": 36549,
-    "Environnement & Energie": 30373,
-    "Collectivites & Administration": 15128,
-    "Logement & Urbanisme": 14729,
-    "Transport & Mobilite": 9472,
-    "Economie & Finances": 8119,
-    "Culture & Patrimoine": 3715,
-    "Numerique": 3248,
-    "Education & Recherche": 3051,
+    "Autre / Non classe": 36584,
+    "Environnement & Energie": 30409,
+    "Collectivites & Administration": 15148,
+    "Logement & Urbanisme": 14731,
+    "Transport & Mobilite": 9473,
+    "Economie & Finances": 8122,
+    "Culture & Patrimoine": 3717,
+    "Numerique": 3249,
+    "Education & Recherche": 3053,
     "Sante": 2941,
-    "Agriculture & Alimentation": 2044,
+    "Agriculture & Alimentation": 2046,
     "Emploi & Travail": 627,
     "Justice & Securite": 524,
     "International": 296
@@ -31,16 +31,16 @@
       "Medicaments & produits de sante": 18
     },
     "Environnement & Energie": {
-      "Climat & risques naturels": 13778,
-      "Eau & hydrologie": 5193,
-      "Autre": 3951,
-      "Biodiversite & ecologie": 3439,
-      "Dechets & recyclage": 1735,
-      "Energie & reseaux": 1388,
-      "Forets": 889
+      "Climat & risques naturels": 13791,
+      "Eau & hydrologie": 5194,
+      "Autre": 3955,
+      "Biodiversite & ecologie": 3460,
+      "Dechets & recyclage": 1727,
+      "Energie & reseaux": 1392,
+      "Forets": 890
     },
     "Transport & Mobilite": {
-      "Autre": 3236,
+      "Autre": 3237,
       "Reseaux routiers": 2143,
       "Transport en commun": 1475,
       "Trafic & stationnement": 1316,
@@ -49,15 +49,15 @@
     },
     "Education & Recherche": {
       "Etablissements scolaires": 1134,
-      "Formation professionnelle": 632,
+      "Formation professionnelle": 633,
       "Recherche": 564,
-      "Autre": 518,
+      "Autre": 519,
       "Enseignement superieur": 203
     },
     "Economie & Finances": {
-      "Autre": 3106,
-      "Finances publiques & budget": 2928,
-      "Entreprises & commerce": 1568,
+      "Autre": 3107,
+      "Finances publiques & budget": 2927,
+      "Entreprises & commerce": 1571,
       "Fiscalite": 403,
       "Marches publics": 114
     },
@@ -74,26 +74,26 @@
       "Autre": 3
     },
     "Agriculture & Alimentation": {
-      "Production agricole": 1568,
+      "Production agricole": 1570,
       "Elevage & peche": 366,
       "Alimentation": 105,
       "Viticulture": 5
     },
     "Logement & Urbanisme": {
-      "Amenagement du territoire": 7252,
+      "Amenagement du territoire": 7254,
       "Cadastre & foncier": 5151,
       "Construction & habitat": 2257,
       "Immobilier": 69
     },
     "Culture & Patrimoine": {
-      "Patrimoine & monuments": 1420,
+      "Patrimoine & monuments": 1422,
       "Tourisme": 1070,
       "Autre": 677,
       "Bibliotheques & musees": 447,
       "Spectacles & evenements": 101
     },
     "Numerique": {
-      "Open data & plateformes": 2371,
+      "Open data & plateformes": 2372,
       "Autre": 799,
       "Applications & services numeriques": 56,
       "Intelligence artificielle": 17,
@@ -105,8 +105,8 @@
       "Cooperation & diplomatie": 1
     },
     "Collectivites & Administration": {
-      "Regions & departements": 7336,
-      "Communes & intercommunalites": 4942,
+      "Regions & departements": 7353,
+      "Communes & intercommunalites": 4945,
       "Elections & elus": 1855,
       "Administration publique": 774,
       "Autre": 221
@@ -114,56 +114,20 @@
   },
   "subtag_counts": {
     "Environnement & Energie": {
-      "Forets": {
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 299,
-        "risque-zonages-risque-naturel": 218,
-        "foret-dfci": 207,
-        "zones-a-risque-naturel": 175,
-        "foret": 171,
-        "foret-foret": 87,
-        "foret-gestion": 78,
-        "foret-reglement": 62,
-        "herault": 44,
-        "foret-description": 41
-      },
-      "Climat & risques naturels": {
-        "risque-zonages-risque-naturel": 8551,
-        "zones-a-risque-naturel": 5724,
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 5295,
-        "risque-inondation": 3175,
-        "inondation": 3160,
-        "pprn": 2720,
-        "usage-des-sols": 2678,
-        "risque": 1373,
-        "alea-enjeux-inondation-amenagement-urbanisme-prescription-prevention-servitude-risque-multi-risque": 1168,
-        "ppr": 901
-      },
       "Biodiversite & ecologie": {
         "biodiversite": 859,
         "environnement": 804,
-        "habitats-et-biotopes": 491,
-        "sites-proteges": 458,
+        "habitats-et-biotopes": 509,
+        "sites-proteges": 476,
         "nature-paysage-biodiversite-zonages-nature": 442,
         "ecologie": 303,
         "continuite-ecologique": 301,
-        "repartition-des-especes": 294,
+        "repartition-des-especes": 295,
         "trame-verte-et-bleue": 292,
         "srce": 282
       },
-      "Eau & hydrologie": {
-        "eau": 1227,
-        "hydrographie": 1104,
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 1010,
-        "eau-zonages-eau": 905,
-        "environnement": 598,
-        "observation-de-la-terre-et-environnement": 470,
-        "politique-de-lenvironnement": 427,
-        "donnees-de-references-referentiels-vocabulaire-controle": 397,
-        "dce": 322,
-        "eau-de-surface": 319
-      },
       "Energie & reseaux": {
-        "energie": 671,
+        "energie": 672,
         "lieux-de-production-et-sites-industriels": 380,
         "eau": 367,
         "industrie": 364,
@@ -180,15 +144,27 @@
         "nature": 526,
         "lunel": 477,
         "ccpl": 474,
-        "pollution": 426,
-        "geospatial": 396,
+        "pollution": 428,
+        "geospatial": 395,
         "velo": 369,
         "paysage": 354,
         "air": 352
       },
+      "Eau & hydrologie": {
+        "eau": 1227,
+        "hydrographie": 1105,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 1010,
+        "eau-zonages-eau": 906,
+        "environnement": 598,
+        "observation-de-la-terre-et-environnement": 470,
+        "politique-de-lenvironnement": 427,
+        "donnees-de-references-referentiels-vocabulaire-controle": 397,
+        "dce": 322,
+        "eau-de-surface": 319
+      },
       "Dechets & recyclage": {
-        "dechet": 790,
-        "dechets": 595,
+        "dechet": 791,
+        "dechets": 588,
         "ccpl": 550,
         "collecte": 545,
         "tri": 516,
@@ -197,124 +173,106 @@
         "verre": 241,
         "decheterie": 212,
         "compostage": 154
+      },
+      "Forets": {
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 300,
+        "risque-zonages-risque-naturel": 219,
+        "foret-dfci": 207,
+        "zones-a-risque-naturel": 175,
+        "foret": 171,
+        "foret-foret": 87,
+        "foret-gestion": 78,
+        "foret-reglement": 62,
+        "herault": 44,
+        "foret-description": 41
+      },
+      "Climat & risques naturels": {
+        "risque-zonages-risque-naturel": 8556,
+        "zones-a-risque-naturel": 5725,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 5299,
+        "risque-inondation": 3180,
+        "inondation": 3136,
+        "pprn": 2720,
+        "usage-des-sols": 2678,
+        "risque": 1349,
+        "alea-enjeux-inondation-amenagement-urbanisme-prescription-prevention-servitude-risque-multi-risque": 1168,
+        "ppr": 901
       }
     },
-    "Justice & Securite": {
-      "Secours & incendie": {
-        "incendie": 74,
-        "risque-zonages-risque-naturel": 66,
-        "risque": 63,
-        "zones-a-risque-naturel": 60,
-        "secours": 26,
-        "sdis": 14,
-        "pprif": 12,
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 11,
-        "pompiers": 11,
-        "pompier": 8
+    "Economie & Finances": {
+      "Entreprises & commerce": {
+        "entreprise": 404,
+        "economie": 404,
+        "entreprises": 182,
+        "industrie": 177,
+        "commerce": 173,
+        "entreprendre": 147,
+        "zones-dactivites": 143,
+        "ccpl": 142,
+        "lieux-de-production-et-sites-industriels": 89,
+        "agriculture": 78
       },
-      "Securite & police": {
-        "securite": 119,
-        "police": 84,
-        "2019": 45,
-        "deliberation": 36,
-        "surveillance": 34,
-        "grand-public": 30,
-        "convention": 29,
-        "securite-civile": 27,
-        "police-municipale": 26,
-        "zones-a-risque-naturel": 23
-      },
-      "Justice": {
-        "justice": 19,
-        "discrimination": 7,
-        "egalite": 7,
-        "tribunal": 5,
-        "droit": 4,
-        "judiciaire": 3,
-        "avocat": 2,
-        "avocats": 2,
-        "barreau": 2,
-        "barreaux": 2
+      "Finances publiques & budget": {
+        "budget": 2060,
+        "finances-publiques": 795,
+        "budget-primitif": 705,
+        "finances": 645,
+        "compte": 400,
+        "compte-administratif": 392,
+        "finance": 381,
+        "m71": 368,
+        "citoyennete-institution": 298,
+        "budget-de-letat": 297
       },
       "Autre": {
-        "prison": 3,
-        "amenagement-de-peine": 2
-      }
-    },
-    "Collectivites & Administration": {
-      "Regions & departements": {
-        "donnees-essentielles": 1958,
-        "commande-publique": 1955,
-        "region": 837,
-        "statique": 712,
-        "ortho-imagerie": 556,
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 537,
-        "orthophoto-regionale": 465,
-        "photographies-aeriennes": 426,
-        "geospatial": 413,
-        "risque-zonages-risque-naturel": 359
+        "economie": 646,
+        "administration-gouvernement-finances-publiques-citoyennete": 399,
+        "statique": 257,
+        "region": 247,
+        "marche": 228,
+        "administration": 213,
+        "developpement-economique": 181,
+        "election": 168,
+        "emploi": 146,
+        "finances": 143
       },
-      "Autre": {
-        "collectivites-locales": 46,
-        "comptabilite-publique": 36,
-        "comptes-publics": 36,
-        "collectivite": 28,
-        "collectivites": 21,
-        "collectivite-territoriale": 21,
-        "balances-comptables": 19,
-        "chercheur-ou-journaliste": 17,
-        "frequentation-statistiques": 16,
-        "validations-telebillettiques": 16
+      "Marches publics": {
+        "marche-public": 64,
+        "commande-publique": 35,
+        "marches-publics": 34,
+        "marche": 23,
+        "achat-public": 16,
+        "citoyennete-institution": 13,
+        "economie": 12,
+        "commande-public": 10,
+        "donnees-essentielles": 9,
+        "decp": 7
       },
-      "Communes & intercommunalites": {
-        "commune": 788,
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 385,
-        "risque-zonages-risque-naturel": 371,
-        "communes": 354,
-        "adresses": 307,
-        "base-adresse-locale": 306,
-        "grand-public": 301,
-        "flore": 287,
-        "intercommunalite": 285,
-        "geospatial": 267
-      },
-      "Administration publique": {
-        "administration": 202,
-        "donnee-generique-administratif": 109,
-        "unites-administratives": 80,
-        "decoupage-administratif": 57,
-        "administratif": 54,
-        "compte-administratif": 52,
-        "administration-action-publique": 51,
-        "acte-administratif": 46,
-        "carte": 41,
-        "grand-public": 40
-      },
-      "Elections & elus": {
-        "elections": 708,
-        "election": 705,
-        "citoyennete": 381,
-        "vote": 303,
-        "citoyennete-institution": 296,
-        "bureau-de-vote": 135,
-        "resultats": 119,
-        "elus": 115,
-        "legislatives": 105,
-        "participation": 103
+      "Fiscalite": {
+        "fiscalite": 138,
+        "carte": 113,
+        "economie": 76,
+        "commune": 67,
+        "revenu-fiscal": 57,
+        "canton": 56,
+        "effort-fiscal": 41,
+        "amenagement-du-territoire": 41,
+        "cartes": 40,
+        "grand-est": 40
       }
     },
     "Logement & Urbanisme": {
       "Amenagement du territoire": {
         "usage-des-sols": 4440,
-        "amenagement-urbanisme-zonages-planification": 4012,
+        "amenagement-urbanisme-zonages-planification": 4015,
         "plu": 1747,
-        "urbanisme": 1309,
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 1052,
+        "urbanisme": 1299,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 1055,
         "document-durbanisme": 1029,
-        "amenagement-urbanisme-assiette-servitude": 850,
-        "servitude": 552,
+        "amenagement-urbanisme-assiette-servitude": 851,
+        "servitude": 543,
         "planification": 526,
-        "prevention": 459
+        "prevention": 450
       },
       "Construction & habitat": {
         "habitat": 502,
@@ -353,66 +311,188 @@
         "rhone-alpes": 173
       }
     },
-    "Culture & Patrimoine": {
-      "Tourisme": {
-        "tourisme": 792,
-        "hebergement": 119,
-        "culture": 107,
-        "sport": 96,
-        "culture-tourisme": 94,
-        "nature": 80,
-        "musique": 78,
-        "theatre": 74,
-        "conservatoire": 72,
-        "opera": 72
+    "Collectivites & Administration": {
+      "Communes & intercommunalites": {
+        "commune": 790,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 386,
+        "risque-zonages-risque-naturel": 371,
+        "communes": 353,
+        "adresses": 307,
+        "base-adresse-locale": 306,
+        "grand-public": 301,
+        "flore": 288,
+        "intercommunalite": 285,
+        "geospatial": 266
       },
-      "Patrimoine & monuments": {
-        "patrimoine": 797,
-        "culture": 661,
-        "tourisme": 427,
-        "monument": 339,
-        "ccpl": 284,
-        "site": 152,
-        "culture-patrimoine": 145,
-        "musee": 83,
-        "patrimoine-naturel": 76,
-        "bretagne": 75
+      "Regions & departements": {
+        "donnees-essentielles": 1961,
+        "commande-publique": 1958,
+        "region": 837,
+        "statique": 712,
+        "ortho-imagerie": 556,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 537,
+        "orthophoto-regionale": 465,
+        "photographies-aeriennes": 426,
+        "geospatial": 413,
+        "risque-zonages-risque-naturel": 359
       },
-      "Spectacles & evenements": {
-        "culture": 53,
-        "musique": 35,
-        "spectacle-vivant": 30,
-        "spectacle": 27,
-        "arts": 24,
-        "geolocalisation": 24,
-        "concert": 19,
-        "theatre": 18,
-        "festival": 16,
-        "vie-culturelle": 14
+      "Administration publique": {
+        "administration": 202,
+        "donnee-generique-administratif": 109,
+        "unites-administratives": 80,
+        "decoupage-administratif": 57,
+        "administratif": 54,
+        "compte-administratif": 52,
+        "administration-action-publique": 51,
+        "acte-administratif": 46,
+        "carte": 41,
+        "grand-public": 40
+      },
+      "Elections & elus": {
+        "elections": 708,
+        "election": 705,
+        "citoyennete": 381,
+        "vote": 303,
+        "citoyennete-institution": 296,
+        "bureau-de-vote": 135,
+        "resultats": 119,
+        "elus": 115,
+        "legislatives": 105,
+        "participation": 103
       },
       "Autre": {
-        "culture": 505,
-        "ministeredelaculture": 164,
-        "region": 58,
-        "societe": 56,
-        "statique": 54,
-        "sport": 48,
-        "art": 46,
-        "mer-littoral-culture-marine": 43,
-        "musique": 40,
-        "agenda": 36
+        "collectivites-locales": 46,
+        "comptabilite-publique": 36,
+        "comptes-publics": 36,
+        "collectivite": 28,
+        "collectivites": 21,
+        "collectivite-territoriale": 21,
+        "balances-comptables": 19,
+        "chercheur-ou-journaliste": 17,
+        "frequentation-statistiques": 16,
+        "validations-telebillettiques": 16
+      }
+    },
+    "Agriculture & Alimentation": {
+      "Production agricole": {
+        "agriculture": 877,
+        "occupation-du-sol": 590,
+        "nature": 573,
+        "artificialisation": 572,
+        "couverture": 572,
+        "evolution": 572,
+        "naf": 572,
+        "usage": 572,
+        "ccpl": 566,
+        "agriculture-zonages-agricoles": 317
       },
-      "Bibliotheques & musees": {
-        "bibliotheque": 190,
-        "culture": 187,
-        "musee": 85,
-        "mediatheque": 71,
-        "livre": 67,
-        "statistiques": 56,
-        "musees": 40,
-        "livres": 38,
-        "abonnement": 34,
-        "bibliotheques": 25
+      "Elevage & peche": {
+        "mer": 206,
+        "peche": 102,
+        "peche-professionnelle": 74,
+        "facade-atlantique": 72,
+        "nouvelle-aquitaine": 62,
+        "regions-maritimes": 58,
+        "bretagne": 47,
+        "caracteristiques-geographiques-oceanographiques": 46,
+        "parc-naturel-marin-estuaire-de-la-gironde-mer-des-pertuis": 42,
+        "effort-de-peche": 41
+      },
+      "Alimentation": {
+        "alimentation": 38,
+        "mer": 14,
+        "nouvelle-aquitaine": 11,
+        "parc-naturel-marin-estuaire-de-la-gironde-mer-des-pertuis": 10,
+        "pays-de-la-loire": 10,
+        "zone-fonctionnelle": 10,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 9,
+        "canal": 9,
+        "hydrographie": 9,
+        "hydrographie-reseaux-et-ouvrages": 9
+      },
+      "Viticulture": {
+        "viticulture": 4,
+        "donnees-vecteur": 2,
+        "draaf-auvergne-rhone-alpes": 2,
+        "farming": 2,
+        "grand-public": 2,
+        "rhone-alpes": 2,
+        "zonage": 2,
+        "zonages-agricoles": 2
+      }
+    },
+    "Transport & Mobilite": {
+      "Autre": {
+        "mobilite": 748,
+        "transport": 648,
+        "statique": 468,
+        "reseaux-de-transport": 421,
+        "bassin": 344,
+        "infra-departemental": 341,
+        "gtfs": 338,
+        "societe": 315,
+        "transports": 234,
+        "netex": 169
+      },
+      "Mobilites actives": {
+        "velo": 726,
+        "mobilite": 229,
+        "transport": 153,
+        "stationnement": 98,
+        "station": 81,
+        "velos": 81,
+        "pistes-cyclables": 80,
+        "tourisme": 77,
+        "amenagements-cyclables": 67,
+        "deplacement": 66
+      },
+      "Reseaux routiers": {
+        "voirie": 480,
+        "route": 418,
+        "nuisance-bruit": 343,
+        "reseaux-de-transport": 323,
+        "reseau-routier": 304,
+        "transport": 259,
+        "route-departementale": 238,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 233,
+        "trafic": 222,
+        "localisation": 169
+      },
+      "Transport en commun": {
+        "bus": 689,
+        "transport": 418,
+        "mobilite": 321,
+        "transports": 279,
+        "tramway": 257,
+        "arret": 248,
+        "transport-en-commun": 207,
+        "gtfs": 178,
+        "metro": 157,
+        "deplacement": 130
+      },
+      "Trafic & stationnement": {
+        "stationnement": 506,
+        "transport": 345,
+        "circulation": 299,
+        "reseaux-de-transport": 295,
+        "donnees-publiques": 225,
+        "parking": 223,
+        "mobilite": 195,
+        "deplacement": 170,
+        "route": 143,
+        "payant": 107
+      },
+      "Aerien & maritime": {
+        "reseaux-de-transport": 68,
+        "aerien": 44,
+        "transport-maritime": 33,
+        "mer": 31,
+        "observation": 30,
+        "port": 27,
+        "transport": 25,
+        "aeroport": 25,
+        "nouvelle-aquitaine": 24,
+        "atlantique": 24
       }
     },
     "Sante": {
@@ -477,89 +557,27 @@
         "citoyennete": 2
       }
     },
-    "Transport & Mobilite": {
-      "Autre": {
-        "mobilite": 748,
-        "transport": 646,
-        "statique": 468,
-        "reseaux-de-transport": 421,
-        "bassin": 344,
-        "infra-departemental": 341,
-        "gtfs": 339,
-        "societe": 315,
-        "transports": 234,
-        "netex": 169
-      },
-      "Mobilites actives": {
-        "velo": 726,
-        "mobilite": 229,
-        "transport": 153,
-        "stationnement": 98,
-        "station": 81,
-        "velos": 81,
-        "pistes-cyclables": 80,
-        "tourisme": 77,
-        "amenagements-cyclables": 67,
-        "deplacement": 66
-      },
-      "Reseaux routiers": {
-        "voirie": 479,
-        "route": 418,
-        "nuisance-bruit": 343,
-        "reseaux-de-transport": 323,
-        "reseau-routier": 304,
-        "transport": 259,
-        "route-departementale": 238,
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 233,
-        "trafic": 222,
-        "localisation": 169
-      },
-      "Transport en commun": {
-        "bus": 689,
-        "transport": 418,
-        "mobilite": 321,
-        "transports": 279,
-        "tramway": 257,
-        "arret": 248,
-        "transport-en-commun": 207,
-        "gtfs": 178,
-        "metro": 157,
-        "deplacement": 130
-      },
-      "Trafic & stationnement": {
-        "stationnement": 506,
-        "transport": 345,
-        "circulation": 299,
-        "reseaux-de-transport": 295,
-        "donnees-publiques": 225,
-        "parking": 223,
-        "mobilite": 195,
-        "deplacement": 170,
-        "route": 143,
-        "payant": 107
-      },
-      "Aerien & maritime": {
-        "reseaux-de-transport": 68,
-        "aerien": 44,
-        "transport-maritime": 33,
-        "mer": 31,
-        "observation": 30,
-        "port": 27,
-        "transport": 25,
-        "aeroport": 25,
-        "nouvelle-aquitaine": 24,
-        "atlantique": 24
-      }
-    },
     "Numerique": {
+      "Open data & plateformes": {
+        "data": 1886,
+        "open": 1878,
+        "xml": 1873,
+        "geospatial": 99,
+        "scdl": 34,
+        "niort": 32,
+        "scdl-deliberations": 29,
+        "gironde": 28,
+        "equipement": 27,
+        "administratif": 27
+      },
       "Autre": {
-        "altitude": 160,
+        "altitude": 161,
         "numerique": 135,
         "orthophoto-regionale": 121,
         "orthophotoplans": 121,
         "photographies-aeriennes": 121,
         "modele-numerique-de-terrain": 104,
-        "mnt": 101,
+        "mnt": 102,
         "mediation-numerique": 79,
         "inclusion-numerique": 77,
         "modele-numerique": 77
@@ -576,18 +594,6 @@
         "marches-publics": 3,
         "societe": 3
       },
-      "Open data & plateformes": {
-        "data": 1886,
-        "open": 1878,
-        "xml": 1873,
-        "geospatial": 100,
-        "scdl": 34,
-        "niort": 32,
-        "scdl-deliberations": 29,
-        "gironde": 28,
-        "equipement": 27,
-        "administratif": 27
-      },
       "Cybersecurite": {
         "cybersecurite": 4
       },
@@ -599,66 +605,170 @@
         "algorithmes-publics": 2
       }
     },
-    "Economie & Finances": {
+    "Education & Recherche": {
+      "Recherche": {
+        "recherche": 247,
+        "enseignement-formation-recherche": 158,
+        "innovation": 84,
+        "enseignement-superieur": 68,
+        "statistiques": 57,
+        "formations-sanitaires-et-sociales": 53,
+        "education-formation-recherche-enseignement": 51,
+        "region": 45,
+        "r-d": 40,
+        "bourse-detudes": 39
+      },
       "Autre": {
-        "economie": 646,
-        "administration-gouvernement-finances-publiques-citoyennete": 399,
-        "statique": 257,
-        "region": 247,
-        "marche": 228,
-        "administration": 213,
-        "developpement-economique": 181,
-        "election": 168,
-        "emploi": 146,
-        "finances": 143
+        "education": 142,
+        "enseignement-superieur": 46,
+        "etudiant": 43,
+        "geospatial": 40,
+        "culture": 37,
+        "enseignement": 36,
+        "eleves-etudiants-et-apprentis": 29,
+        "statistiques": 27,
+        "colleges": 27,
+        "enseignement-agricole": 26
       },
-      "Finances publiques & budget": {
-        "budget": 2061,
-        "finances-publiques": 795,
-        "budget-primitif": 705,
-        "finances": 645,
-        "compte": 400,
-        "compte-administratif": 392,
-        "finance": 381,
-        "m71": 368,
-        "citoyennete-institution": 298,
-        "budget-de-letat": 297
+      "Etablissements scolaires": {
+        "education": 332,
+        "ecole": 295,
+        "college": 185,
+        "ecoles": 154,
+        "lycee": 152,
+        "scolaire": 141,
+        "etablissement": 131,
+        "enseignement": 117,
+        "formation": 104,
+        "public": 90
       },
-      "Entreprises & commerce": {
-        "economie": 404,
-        "entreprise": 403,
-        "entreprises": 181,
-        "industrie": 177,
-        "commerce": 173,
-        "entreprendre": 147,
-        "zones-dactivites": 143,
-        "ccpl": 142,
-        "lieux-de-production-et-sites-industriels": 89,
-        "agriculture": 78
+      "Formation professionnelle": {
+        "formation": 368,
+        "region": 215,
+        "statique": 215,
+        "emploi": 54,
+        "education-formation-jeunesse": 52,
+        "education-formation": 45,
+        "formation-professionnelle": 44,
+        "cfa": 40,
+        "apprentissage": 37,
+        "education": 37
       },
-      "Marches publics": {
-        "marche-public": 64,
-        "commande-publique": 35,
-        "marches-publics": 34,
-        "marche": 23,
-        "achat-public": 16,
-        "citoyennete-institution": 13,
-        "economie": 12,
-        "commande-public": 10,
-        "donnees-essentielles": 9,
-        "decp": 7
+      "Enseignement superieur": {
+        "universite": 87,
+        "enseignement-superieur": 62,
+        "recherche": 49,
+        "universites": 42,
+        "statistiques": 38,
+        "enseignement-formation": 31,
+        "etudiant": 28,
+        "donnees-sexuees": 23,
+        "enseignement": 22,
+        "universite-paris-nanterre": 22
+      }
+    },
+    "Justice & Securite": {
+      "Secours & incendie": {
+        "incendie": 74,
+        "risque-zonages-risque-naturel": 66,
+        "risque": 63,
+        "zones-a-risque-naturel": 60,
+        "secours": 26,
+        "sdis": 14,
+        "pprif": 12,
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 11,
+        "pompiers": 11,
+        "pompier": 8
       },
-      "Fiscalite": {
-        "fiscalite": 138,
-        "carte": 113,
-        "economie": 76,
-        "commune": 67,
-        "revenu-fiscal": 57,
-        "canton": 56,
-        "effort-fiscal": 41,
-        "amenagement-du-territoire": 41,
-        "cartes": 40,
-        "grand-est": 40
+      "Securite & police": {
+        "securite": 119,
+        "police": 84,
+        "2019": 45,
+        "deliberation": 36,
+        "surveillance": 34,
+        "grand-public": 30,
+        "convention": 29,
+        "securite-civile": 27,
+        "police-municipale": 26,
+        "zones-a-risque-naturel": 23
+      },
+      "Justice": {
+        "justice": 19,
+        "discrimination": 7,
+        "egalite": 7,
+        "tribunal": 5,
+        "droit": 4,
+        "judiciaire": 3,
+        "avocat": 2,
+        "avocats": 2,
+        "barreau": 2,
+        "barreaux": 2
+      },
+      "Autre": {
+        "prison": 3,
+        "amenagement-de-peine": 2
+      }
+    },
+    "Culture & Patrimoine": {
+      "Tourisme": {
+        "tourisme": 792,
+        "hebergement": 119,
+        "culture": 107,
+        "sport": 96,
+        "culture-tourisme": 94,
+        "nature": 80,
+        "musique": 78,
+        "theatre": 74,
+        "conservatoire": 72,
+        "opera": 72
+      },
+      "Patrimoine & monuments": {
+        "patrimoine": 797,
+        "culture": 661,
+        "tourisme": 427,
+        "monument": 339,
+        "ccpl": 284,
+        "site": 152,
+        "culture-patrimoine": 145,
+        "musee": 83,
+        "patrimoine-naturel": 76,
+        "bretagne": 75
+      },
+      "Spectacles & evenements": {
+        "culture": 53,
+        "musique": 35,
+        "spectacle-vivant": 30,
+        "spectacle": 27,
+        "arts": 24,
+        "geolocalisation": 24,
+        "concert": 19,
+        "theatre": 18,
+        "festival": 16,
+        "vie-culturelle": 14
+      },
+      "Autre": {
+        "culture": 505,
+        "ministeredelaculture": 164,
+        "region": 58,
+        "societe": 56,
+        "statique": 54,
+        "sport": 48,
+        "art": 46,
+        "mer-littoral-culture-marine": 43,
+        "musique": 40,
+        "agenda": 36
+      },
+      "Bibliotheques & musees": {
+        "bibliotheque": 190,
+        "culture": 187,
+        "musee": 85,
+        "mediatheque": 71,
+        "livre": 67,
+        "statistiques": 56,
+        "musees": 40,
+        "livres": 38,
+        "abonnement": 34,
+        "bibliotheques": 25
       }
     },
     "International": {
@@ -685,116 +795,6 @@
         "immigre": 45,
         "refugie": 34,
         "frontiere": 33
-      }
-    },
-    "Agriculture & Alimentation": {
-      "Elevage & peche": {
-        "mer": 206,
-        "peche": 102,
-        "peche-professionnelle": 74,
-        "facade-atlantique": 72,
-        "nouvelle-aquitaine": 62,
-        "regions-maritimes": 58,
-        "bretagne": 47,
-        "caracteristiques-geographiques-oceanographiques": 46,
-        "parc-naturel-marin-estuaire-de-la-gironde-mer-des-pertuis": 42,
-        "effort-de-peche": 41
-      },
-      "Production agricole": {
-        "agriculture": 877,
-        "occupation-du-sol": 590,
-        "nature": 573,
-        "artificialisation": 572,
-        "couverture": 572,
-        "evolution": 572,
-        "naf": 572,
-        "usage": 572,
-        "ccpl": 566,
-        "agriculture-zonages-agricoles": 317
-      },
-      "Alimentation": {
-        "alimentation": 38,
-        "mer": 14,
-        "nouvelle-aquitaine": 11,
-        "parc-naturel-marin-estuaire-de-la-gironde-mer-des-pertuis": 10,
-        "pays-de-la-loire": 10,
-        "zone-fonctionnelle": 10,
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration": 9,
-        "canal": 9,
-        "hydrographie": 9,
-        "hydrographie-reseaux-et-ouvrages": 9
-      },
-      "Viticulture": {
-        "viticulture": 4,
-        "donnees-vecteur": 2,
-        "draaf-auvergne-rhone-alpes": 2,
-        "farming": 2,
-        "grand-public": 2,
-        "rhone-alpes": 2,
-        "zonage": 2,
-        "zonages-agricoles": 2
-      }
-    },
-    "Education & Recherche": {
-      "Autre": {
-        "education": 141,
-        "enseignement-superieur": 46,
-        "etudiant": 43,
-        "geospatial": 40,
-        "culture": 37,
-        "enseignement": 36,
-        "eleves-etudiants-et-apprentis": 29,
-        "statistiques": 27,
-        "colleges": 27,
-        "enseignement-agricole": 26
-      },
-      "Etablissements scolaires": {
-        "education": 332,
-        "ecole": 295,
-        "college": 185,
-        "ecoles": 154,
-        "lycee": 152,
-        "scolaire": 141,
-        "etablissement": 131,
-        "enseignement": 117,
-        "formation": 104,
-        "public": 90
-      },
-      "Recherche": {
-        "recherche": 247,
-        "enseignement-formation-recherche": 158,
-        "innovation": 84,
-        "enseignement-superieur": 68,
-        "statistiques": 57,
-        "formations-sanitaires-et-sociales": 53,
-        "education-formation-recherche-enseignement": 51,
-        "region": 45,
-        "r-d": 40,
-        "bourse-detudes": 39
-      },
-      "Formation professionnelle": {
-        "formation": 368,
-        "region": 215,
-        "statique": 215,
-        "emploi": 54,
-        "education-formation-jeunesse": 52,
-        "education-formation": 45,
-        "formation-professionnelle": 44,
-        "cfa": 40,
-        "apprentissage": 37,
-        "education": 37
-      },
-      "Enseignement superieur": {
-        "universite": 87,
-        "enseignement-superieur": 62,
-        "recherche": 49,
-        "universites": 42,
-        "statistiques": 38,
-        "enseignement-formation": 31,
-        "etudiant": 28,
-        "donnees-sexuees": 23,
-        "enseignement": 22,
-        "universite-paris-nanterre": 22
       }
     },
     "Emploi & Travail": {
@@ -842,18 +842,6 @@
   },
   "subtag_recent": {
     "Environnement & Energie": {
-      "Forets": [
-        "foret",
-        "foret-dfci",
-        "herault"
-      ],
-      "Climat & risques naturels": [
-        "inondation",
-        "risque",
-        "risque-zonages-risque-naturel",
-        "zones-a-risque-naturel",
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
-      ],
       "Biodiversite & ecologie": [
         "biodiversite",
         "ecologie",
@@ -863,18 +851,6 @@
         "repartition-des-especes",
         "srce",
         "trame-verte-et-bleue"
-      ],
-      "Eau & hydrologie": [
-        "dce",
-        "donnees-de-references-referentiels-vocabulaire-controle",
-        "eau",
-        "eau-de-surface",
-        "eau-zonages-eau",
-        "environnement",
-        "hydrographie",
-        "observation-de-la-terre-et-environnement",
-        "politique-de-lenvironnement",
-        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
       ],
       "Energie & reseaux": [
         "batiments",
@@ -891,6 +867,16 @@
         "tourisme",
         "velo"
       ],
+      "Eau & hydrologie": [
+        "donnees-de-references-referentiels-vocabulaire-controle",
+        "eau",
+        "eau-zonages-eau",
+        "environnement",
+        "hydrographie",
+        "observation-de-la-terre-et-environnement",
+        "politique-de-lenvironnement",
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
+      ],
       "Dechets & recyclage": [
         "collecte",
         "dechet",
@@ -900,66 +886,70 @@
         "tri",
         "tri-selectif",
         "verre"
-      ]
-    },
-    "Justice & Securite": {
-      "Secours & incendie": [
-        "incendie",
-        "pompiers"
       ],
-      "Securite & police": [
-        "police",
-        "securite"
+      "Forets": [
+        "foret",
+        "foret-dfci",
+        "herault"
       ],
-      "Justice": [
-        "droit",
-        "judiciaire",
-        "justice"
-      ]
-    },
-    "Collectivites & Administration": {
-      "Regions & departements": [
-        "commande-publique",
-        "donnees-essentielles",
-        "geospatial",
-        "ortho-imagerie",
-        "photographies-aeriennes",
-        "region",
+      "Climat & risques naturels": [
+        "inondation",
+        "risque",
+        "risque-inondation",
         "risque-zonages-risque-naturel",
+        "zones-a-risque-naturel",
         "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
+      ]
+    },
+    "Economie & Finances": {
+      "Entreprises & commerce": [
+        "agriculture",
+        "commerce",
+        "economie",
+        "entreprise",
+        "entreprises",
+        "lieux-de-production-et-sites-industriels"
+      ],
+      "Finances publiques & budget": [
+        "budget",
+        "budget-de-letat",
+        "budget-primitif",
+        "finances",
+        "finances-publiques"
       ],
       "Autre": [
-        "chercheur-ou-journaliste",
-        "collectivite",
-        "collectivites"
-      ],
-      "Communes & intercommunalites": [
-        "adresses",
-        "base-adresse-locale",
-        "commune",
-        "communes"
-      ],
-      "Administration publique": [
-        "administratif",
-        "administration"
-      ],
-      "Elections & elus": [
-        "bureau-de-vote",
-        "citoyennete",
-        "citoyennete-institution",
+        "administration",
+        "administration-gouvernement-finances-publiques-citoyennete",
+        "developpement-economique",
+        "economie",
         "election",
-        "elections",
-        "elus",
-        "legislatives",
-        "vote"
+        "emploi",
+        "finances",
+        "marche"
+      ],
+      "Marches publics": [
+        "achat-public",
+        "citoyennete-institution",
+        "commande-publique",
+        "decp",
+        "donnees-essentielles",
+        "marche",
+        "marche-public",
+        "marches-publics"
+      ],
+      "Fiscalite": [
+        "economie",
+        "fiscalite"
       ]
     },
     "Logement & Urbanisme": {
       "Amenagement du territoire": [
+        "amenagement-urbanisme-assiette-servitude",
         "amenagement-urbanisme-zonages-planification",
         "document-durbanisme",
         "planification",
         "plu",
+        "servitude",
         "urbanisme",
         "usage-des-sols",
         "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
@@ -981,88 +971,50 @@
         "urbanisme"
       ]
     },
-    "Culture & Patrimoine": {
-      "Tourisme": [
-        "culture",
-        "culture-tourisme",
-        "hebergement",
-        "musique",
-        "sport",
-        "tourisme"
+    "Collectivites & Administration": {
+      "Communes & intercommunalites": [
+        "adresses",
+        "base-adresse-locale",
+        "commune",
+        "communes",
+        "flore"
       ],
-      "Patrimoine & monuments": [
-        "culture",
-        "culture-patrimoine",
-        "musee",
-        "patrimoine",
-        "patrimoine-naturel",
-        "tourisme"
+      "Regions & departements": [
+        "commande-publique",
+        "donnees-essentielles",
+        "geospatial",
+        "ortho-imagerie",
+        "photographies-aeriennes",
+        "region",
+        "risque-zonages-risque-naturel",
+        "zones-de-gestion-de-restriction-ou-de-reglementation-et-unites-de-declaration"
       ],
-      "Spectacles & evenements": [
-        "concert",
-        "culture",
-        "festival",
-        "musique",
-        "spectacle",
-        "spectacle-vivant"
+      "Administration publique": [
+        "administratif",
+        "administration"
+      ],
+      "Elections & elus": [
+        "bureau-de-vote",
+        "citoyennete",
+        "citoyennete-institution",
+        "election",
+        "elections",
+        "elus",
+        "legislatives",
+        "vote"
       ],
       "Autre": [
-        "agenda",
-        "art",
-        "culture",
-        "ministeredelaculture",
-        "musique",
-        "region",
-        "sport"
-      ],
-      "Bibliotheques & musees": [
-        "bibliotheque",
-        "culture",
-        "mediatheque",
-        "musees"
+        "chercheur-ou-journaliste",
+        "collectivite",
+        "collectivites"
       ]
     },
-    "Sante": {
-      "Autre": [
-        "enfance",
-        "environnement",
-        "logement-sante-social",
-        "sante",
-        "sante-et-securite-des-personnes",
-        "sante-social"
+    "Agriculture & Alimentation": {
+      "Production agricole": [
+        "agriculture"
       ],
-      "Etablissements & soins": [
-        "acces-aux-soins",
-        "hopital",
-        "hopitaux",
-        "medecin",
-        "medecins",
-        "sante",
-        "sante-et-systeme-de-soins",
-        "soins"
-      ],
-      "Handicap & medico-social": [
-        "accessibilite",
-        "handicap",
-        "handicap-et-autonomie",
-        "personnes-agees",
-        "pmr",
-        "sante",
-        "stationnement",
-        "transport"
-      ],
-      "Epidemiologie & maladies": [
-        "coronavirus",
-        "covid",
-        "covid-19",
-        "sante",
-        "vaccination"
-      ],
-      "Medicaments & produits de sante": [
-        "citoyennete",
-        "sante",
-        "vaccin",
-        "vaccination"
+      "Alimentation": [
+        "alimentation"
       ]
     },
     "Transport & Mobilite": {
@@ -1071,7 +1023,6 @@
         "mobilite",
         "netex",
         "reseaux-de-transport",
-        "societe",
         "transport",
         "transports"
       ],
@@ -1123,21 +1074,67 @@
         "transport"
       ]
     },
-    "Numerique": {
+    "Sante": {
       "Autre": [
-        "inclusion-numerique",
-        "mediation-numerique",
-        "numerique"
+        "enfance",
+        "environnement",
+        "logement-sante-social",
+        "sante",
+        "sante-et-securite-des-personnes",
+        "sante-social"
       ],
-      "Applications & services numeriques": [
-        "logiciel"
+      "Etablissements & soins": [
+        "acces-aux-soins",
+        "hopital",
+        "hopitaux",
+        "medecin",
+        "medecins",
+        "sante",
+        "sante-et-systeme-de-soins",
+        "soins"
       ],
+      "Handicap & medico-social": [
+        "accessibilite",
+        "handicap",
+        "handicap-et-autonomie",
+        "personnes-agees",
+        "pmr",
+        "sante",
+        "sport",
+        "stationnement",
+        "transport"
+      ],
+      "Epidemiologie & maladies": [
+        "coronavirus",
+        "covid",
+        "covid-19",
+        "sante",
+        "vaccination"
+      ],
+      "Medicaments & produits de sante": [
+        "citoyennete",
+        "sante",
+        "vaccin",
+        "vaccination"
+      ]
+    },
+    "Numerique": {
       "Open data & plateformes": [
         "administratif",
         "equipement",
         "geospatial",
         "niort",
         "scdl"
+      ],
+      "Autre": [
+        "altitude",
+        "inclusion-numerique",
+        "mediation-numerique",
+        "mnt",
+        "numerique"
+      ],
+      "Applications & services numeriques": [
+        "logiciel"
       ],
       "Cybersecurite": [
         "cybersecurite"
@@ -1147,57 +1144,16 @@
         "donnees"
       ]
     },
-    "Economie & Finances": {
-      "Autre": [
-        "administration",
-        "administration-gouvernement-finances-publiques-citoyennete",
-        "developpement-economique",
-        "economie",
-        "election",
-        "emploi",
-        "finances",
-        "marche"
-      ],
-      "Finances publiques & budget": [
-        "budget",
-        "budget-de-letat",
-        "budget-primitif",
-        "citoyennete-institution",
-        "finances",
-        "finances-publiques"
-      ],
-      "Entreprises & commerce": [
-        "agriculture",
-        "commerce",
-        "economie",
-        "entreprise",
-        "entreprises",
-        "lieux-de-production-et-sites-industriels"
-      ],
-      "Marches publics": [
-        "achat-public",
-        "citoyennete-institution",
-        "commande-publique",
-        "decp",
-        "donnees-essentielles",
-        "marche",
-        "marche-public",
-        "marches-publics"
-      ],
-      "Fiscalite": [
-        "economie",
-        "fiscalite"
-      ]
-    },
-    "Agriculture & Alimentation": {
-      "Production agricole": [
-        "agriculture"
-      ],
-      "Alimentation": [
-        "alimentation"
-      ]
-    },
     "Education & Recherche": {
+      "Recherche": [
+        "education-formation-recherche-enseignement",
+        "enseignement-formation-recherche",
+        "enseignement-superieur",
+        "innovation",
+        "r-d",
+        "recherche",
+        "statistiques"
+      ],
       "Autre": [
         "colleges",
         "culture",
@@ -1219,14 +1175,6 @@
         "public",
         "scolaire"
       ],
-      "Recherche": [
-        "education-formation-recherche-enseignement",
-        "enseignement-formation-recherche",
-        "innovation",
-        "r-d",
-        "recherche",
-        "statistiques"
-      ],
       "Formation professionnelle": [
         "apprentissage",
         "education",
@@ -1237,12 +1185,74 @@
         "formation-professionnelle"
       ],
       "Enseignement superieur": [
+        "donnees-sexuees",
+        "enseignement",
+        "enseignement-superieur",
         "recherche",
-        "statistiques"
+        "statistiques",
+        "universite",
+        "universites"
+      ]
+    },
+    "Justice & Securite": {
+      "Secours & incendie": [
+        "incendie",
+        "pompiers"
+      ],
+      "Securite & police": [
+        "police",
+        "securite"
+      ],
+      "Justice": [
+        "droit",
+        "judiciaire",
+        "justice"
+      ]
+    },
+    "Culture & Patrimoine": {
+      "Tourisme": [
+        "culture",
+        "culture-tourisme",
+        "hebergement",
+        "musique",
+        "sport",
+        "tourisme"
+      ],
+      "Patrimoine & monuments": [
+        "culture",
+        "culture-patrimoine",
+        "musee",
+        "patrimoine",
+        "patrimoine-naturel",
+        "tourisme"
+      ],
+      "Spectacles & evenements": [
+        "concert",
+        "culture",
+        "festival",
+        "musique",
+        "spectacle",
+        "spectacle-vivant"
+      ],
+      "Autre": [
+        "agenda",
+        "art",
+        "culture",
+        "ministeredelaculture",
+        "musique",
+        "region",
+        "sport"
+      ],
+      "Bibliotheques & musees": [
+        "bibliotheque",
+        "culture",
+        "mediatheque",
+        "musees"
       ]
     },
     "Emploi & Travail": {
       "Marche du travail": [
+        "activite",
         "chomage",
         "emploi"
       ]
@@ -1258,7 +1268,7 @@
     "Communauté d'Agglomération du Saint-Quentinois": 2615,
     "Direction Départementale des Territoires du Cher": 2088,
     "DataGrandEst": 1997,
-    "Région Auvergne-Rhône-Alpes": 1963,
+    "Région Auvergne-Rhône-Alpes": 1966,
     "Direction Départementale des Territoires de l'Ariège": 1959,
     "Direction Départementale des Territoires et de la Mer de la Somme": 1879,
     "Direction Départementale des Territoires et de la Mer des Pyrénées-Atlantiques": 1873,
@@ -1266,27 +1276,27 @@
     "Communauté d'Agglomération Plaine Vallée": 1386
   },
   "license_counts_top": {
-    "Licence Ouverte / Open Licence version 2.0": 62966,
-    "License Not Specified": 37030,
-    "Licence Ouverte / Open Licence": 11018,
+    "Licence Ouverte / Open Licence version 2.0": 63057,
+    "License Not Specified": 37042,
+    "Licence Ouverte / Open Licence": 11021,
     "Open Data Commons Open Database License (ODbL)": 7501,
     "Other (Attribution)": 5995,
-    "(non renseigne)": 5467,
+    "(non renseigne)": 5462,
     "Creative Commons Attribution": 196,
     "Other (Public Domain)": 172,
     "Other (Open)": 172,
-    "Creative Commons Attribution Share-Alike": 164
+    "Creative Commons Attribution Share-Alike": 167
   },
   "format_counts_top": {
-    "CSV": 43306,
-    "JSON": 35420,
-    "ZIP": 26570,
-    "WMS": 22830,
-    "WFS": 21511,
+    "CSV": 43345,
+    "JSON": 35425,
+    "ZIP": 26577,
+    "WMS": 22899,
+    "WFS": 21580,
     "SHP": 18464,
-    "ESRI SHAPEFILE (SHP)": 15292,
-    "PDF": 8786,
-    "GEOJSON": 8178,
+    "ESRI SHAPEFILE (SHP)": 15344,
+    "PDF": 8790,
+    "GEOJSON": 8179,
     "WEB PAGE": 6996
   },
   "new_items": [
@@ -1326,81 +1336,11 @@
       "organization": "DDT de l'Isère"
     },
     {
-      "title": "Messages d'actualité me-déplacer",
-      "url": "https://www.data.gouv.fr/datasets/messages-dactualite-me-deplacer",
+      "title": "Disponibilité dans les Parking à Angers",
+      "url": "https://www.data.gouv.fr/datasets/disponibilite-dans-les-parking-a-angers",
       "domain": "Transport & Mobilite",
       "sub_domain": "Trafic & stationnement",
-      "organization": "Île-de-France Mobilités"
-    },
-    {
-      "title": "Evolution de la dette à Issy-les-Moulineaux",
-      "url": "https://www.data.gouv.fr/datasets/evolution-de-la-dette-a-issy-les-moulineaux",
-      "domain": "Economie & Finances",
-      "sub_domain": "Finances publiques & budget",
-      "organization": "Ville d'Issy-les-Moulineaux"
-    },
-    {
-      "title": "Délibérations Commune de Castelnau-d'Estrétefonds",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castelnau-destretefonds",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Commune de Castelmaurou",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castelmaurou",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Commune de Cazères-sur-Garonne",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-cazeres-sur-garonne",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Commune de Fontenilles",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-fontenilles",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Commune de Labège",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-labege",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Communauté de Communes Coeur de Garonne",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-communaute-de-communes-coeur-de-garonne",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Commune de Ramonville-Saint-Agne",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-ramonville-saint-agne",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Délibérations Commune d'Auterive",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-dauterive",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "État des ascenseurs",
-      "url": "https://www.data.gouv.fr/datasets/etat-des-ascenseurs",
-      "domain": "Numerique",
-      "sub_domain": "Autre",
-      "organization": "Île-de-France Mobilités"
+      "organization": "Angers Loire Métropole"
     },
     {
       "title": "Evénements affectant la circulation parisienne",
@@ -1410,25 +1350,11 @@
       "organization": "Ville de Paris"
     },
     {
-      "title": "Equipements Défibrillateurs",
-      "url": "https://www.data.gouv.fr/datasets/equipements-defibrillateurs",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "SNCF"
-    },
-    {
       "title": "Délibérations Commune de Castanet-Tolosan",
       "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castanet-tolosan",
       "domain": "Collectivites & Administration",
       "sub_domain": "Communes & intercommunalites",
       "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Plan d'action données algorithmes et codes sources - les projets",
-      "url": "https://www.data.gouv.fr/datasets/plan-daction-donnees-algorithmes-et-codes-sources-les-projets",
-      "domain": "Education & Recherche",
-      "sub_domain": "Autre",
-      "organization": "Ministères de l'Éducation nationale"
     },
     {
       "title": "VélÔToulouse - Disponibilité temps réel",
@@ -1452,11 +1378,25 @@
       "organization": "Ville d'Issy-les-Moulineaux"
     },
     {
+      "title": "Messages d'actualité me-déplacer",
+      "url": "https://www.data.gouv.fr/datasets/messages-dactualite-me-deplacer",
+      "domain": "Transport & Mobilite",
+      "sub_domain": "Trafic & stationnement",
+      "organization": "Île-de-France Mobilités"
+    },
+    {
       "title": "Arrêtés réglementaires à Issy-les-Moulineaux",
       "url": "https://www.data.gouv.fr/datasets/arretes-reglementaires-a-issy-les-moulineaux",
       "domain": "Economie & Finances",
       "sub_domain": "Autre",
       "organization": "Ville d'Issy-les-Moulineaux"
+    },
+    {
+      "title": "État des ascenseurs",
+      "url": "https://www.data.gouv.fr/datasets/etat-des-ascenseurs",
+      "domain": "Numerique",
+      "sub_domain": "Autre",
+      "organization": "Île-de-France Mobilités"
     },
     {
       "title": "Etat de fonctionnement des équipements d'élévatique en gare",
@@ -1480,13 +1420,6 @@
       "organization": "Ville d'Issy-les-Moulineaux"
     },
     {
-      "title": "Domaine de Villarceaux - évènements de la saison 2026",
-      "url": "https://www.data.gouv.fr/datasets/domaine-de-villarceaux-evenements-de-la-saison-2026",
-      "domain": "Environnement & Energie",
-      "sub_domain": "Biodiversite & ecologie",
-      "organization": "Région Île-de-France"
-    },
-    {
       "title": "Jardins ouverts 2026",
       "url": "https://www.data.gouv.fr/datasets/jardins-ouverts-2026",
       "domain": "Environnement & Energie",
@@ -1494,8 +1427,8 @@
       "organization": "Région Île-de-France"
     },
     {
-      "title": "Délibérations Commune de Roques",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-roques",
+      "title": "Délibérations Commune de Cazères-sur-Garonne",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-cazeres-sur-garonne",
       "domain": "Collectivites & Administration",
       "sub_domain": "Communes & intercommunalites",
       "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
@@ -1508,6 +1441,55 @@
       "organization": "Toulouse métropole"
     },
     {
+      "title": "Evolution de la dette à Issy-les-Moulineaux",
+      "url": "https://www.data.gouv.fr/datasets/evolution-de-la-dette-a-issy-les-moulineaux",
+      "domain": "Economie & Finances",
+      "sub_domain": "Finances publiques & budget",
+      "organization": "Ville d'Issy-les-Moulineaux"
+    },
+    {
+      "title": "Délibérations Commune de Labège",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-labege",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune d'Auterive",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-dauterive",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Castelnau-d'Estrétefonds",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castelnau-destretefonds",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Roques",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-roques",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Ramonville-Saint-Agne",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-ramonville-saint-agne",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Commune de Fontenilles",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-fontenilles",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
       "title": "Part des EnR et intensité en émissions de GES de l’électricité consommée en France en temps réel",
       "url": "https://www.data.gouv.fr/datasets/part-des-enr-et-intensite-en-emissions-de-ges-de-lelectricite-consommee-en-france-en-temps-reel",
       "domain": "Environnement & Energie",
@@ -1515,18 +1497,32 @@
       "organization": "Open Data Réseaux Énergies"
     },
     {
+      "title": "Délibérations Commune de Castelmaurou",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-commune-de-castelmaurou",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Délibérations Communauté de Communes Coeur de Garonne",
+      "url": "https://www.data.gouv.fr/datasets/deliberations-communaute-de-communes-coeur-de-garonne",
+      "domain": "Collectivites & Administration",
+      "sub_domain": "Communes & intercommunalites",
+      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+    },
+    {
+      "title": "Equipements Défibrillateurs",
+      "url": "https://www.data.gouv.fr/datasets/equipements-defibrillateurs",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "SNCF"
+    },
+    {
       "title": "Etat du trafic en temps réel",
       "url": "https://www.data.gouv.fr/datasets/etat-du-trafic-en-temps-reel",
       "domain": "Transport & Mobilite",
       "sub_domain": "Trafic & stationnement",
       "organization": "Rennes Métropole en accès libre"
-    },
-    {
-      "title": "Mon été, ma région",
-      "url": "https://www.data.gouv.fr/datasets/mon-ete-ma-region",
-      "domain": "Culture & Patrimoine",
-      "sub_domain": "Patrimoine & monuments",
-      "organization": "Région Île-de-France"
     },
     {
       "title": "Gares équipées du Wi-Fi",
@@ -1564,10 +1560,24 @@
       "organization": "Rennes Métropole en accès libre"
     },
     {
+      "title": "assistant-ia-dinum-deploiement-au-ministere-de-leducation-nationale-en-academie",
+      "url": "https://www.data.gouv.fr/datasets/assistant-ia-dinum-deploiement-au-ministere-de-leducation-nationale-en-academie",
+      "domain": "Numerique",
+      "sub_domain": "Autre",
+      "organization": "Ministères de l'Éducation nationale"
+    },
+    {
       "title": "Agenda des animations Île-de-France Nature",
       "url": "https://www.data.gouv.fr/datasets/agenda-des-animations-ile-de-france-nature",
       "domain": "Environnement & Energie",
       "sub_domain": "Forets",
+      "organization": "Région Île-de-France"
+    },
+    {
+      "title": "Offres d'emploi de la Région Île-de-France",
+      "url": "https://www.data.gouv.fr/datasets/offres-demploi-de-la-region-ile-de-france",
+      "domain": "Emploi & Travail",
+      "sub_domain": "Marche du travail",
       "organization": "Région Île-de-France"
     }
   ],
@@ -1580,6 +1590,13 @@
       "organization": "Météo-France"
     },
     {
+      "title": "Médecins accrédités par la HAS",
+      "url": "https://www.data.gouv.fr/datasets/medecins-accredites-par-la-has",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Haute Autorité de santé"
+    },
+    {
       "title": "Bornes de Recharge pour Véhicules Électriques Wattzhub",
       "url": "https://www.data.gouv.fr/datasets/bornes-de-recharge-pour-vehicules-electriques-wattzhub-1",
       "domain": "Autre / Non classe",
@@ -1587,11 +1604,11 @@
       "organization": "WattzHub"
     },
     {
-      "title": "Médecins accrédités par la HAS",
-      "url": "https://www.data.gouv.fr/datasets/medecins-accredites-par-la-has",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "Haute Autorité de santé"
+      "title": "IRVE dynamique (organisation Parera Mobilité)",
+      "url": "https://www.data.gouv.fr/datasets/irve-dynamique-organisation-parera-mobilite",
+      "domain": "Transport & Mobilite",
+      "sub_domain": "Autre",
+      "organization": "PARERA MOBILITE"
     },
     {
       "title": "IRVE statique & dynamique (e-clearing.net)",
@@ -1606,13 +1623,6 @@
       "domain": "Autre / Non classe",
       "sub_domain": null,
       "organization": "Météo-France"
-    },
-    {
-      "title": "IRVE dynamique (organisation Parera Mobilité)",
-      "url": "https://www.data.gouv.fr/datasets/irve-dynamique-organisation-parera-mobilite",
-      "domain": "Transport & Mobilite",
-      "sub_domain": "Autre",
-      "organization": "PARERA MOBILITE"
     },
     {
       "title": "Projets de Recherche ADEME - Vue agrégée 2014-2020",
@@ -1636,6 +1646,13 @@
       "organization": "ADEME"
     },
     {
+      "title": "REP - Liste des producteurs enregistrés dans SYDEREP avec leur identifiant unique",
+      "url": "https://www.data.gouv.fr/datasets/rep-liste-des-producteurs-enregistres-dans-syderep-avec-leur-identifiant-unique",
+      "domain": "Environnement & Energie",
+      "sub_domain": "Dechets & recyclage",
+      "organization": "ADEME"
+    },
+    {
       "title": "Projets de Recherche ADEME - Vue détaillée depuis 2021",
       "url": "https://www.data.gouv.fr/datasets/projets-de-recherche-ademe-vue-detaillee-depuis-2021",
       "domain": "Education & Recherche",
@@ -1643,11 +1660,11 @@
       "organization": "ADEME"
     },
     {
-      "title": "REP - Liste des producteurs enregistrés dans SYDEREP avec leur identifiant unique",
-      "url": "https://www.data.gouv.fr/datasets/rep-liste-des-producteurs-enregistres-dans-syderep-avec-leur-identifiant-unique",
-      "domain": "Environnement & Energie",
-      "sub_domain": "Dechets & recyclage",
-      "organization": "ADEME"
+      "title": "Liste des expériences partagées par les usagers",
+      "url": "https://www.data.gouv.fr/datasets/liste-des-experiences-partagees-par-les-usagers",
+      "domain": "Economie & Finances",
+      "sub_domain": "Autre",
+      "organization": "Direction Interministérielle de la Transformation Publique"
     },
     {
       "title": "PE Arpege GLOB025",
@@ -1664,15 +1681,15 @@
       "organization": "Météo-France"
     },
     {
-      "title": "PCAET (v1) - Démarches - Partie 3",
-      "url": "https://www.data.gouv.fr/datasets/pcaet-v1-demarches-partie-3",
-      "domain": "Environnement & Energie",
-      "sub_domain": "Climat & risques naturels",
-      "organization": "ADEME"
+      "title": "PE Arpege EURAT01",
+      "url": "https://www.data.gouv.fr/datasets/pe-arpege-eurat01",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Météo-France"
     },
     {
-      "title": "PCAET (v1) - Démarches - Partie 4",
-      "url": "https://www.data.gouv.fr/datasets/pcaet-v1-demarches-partie-4",
+      "title": "PCAET (v1) - Démarches - Partie 3",
+      "url": "https://www.data.gouv.fr/datasets/pcaet-v1-demarches-partie-3",
       "domain": "Environnement & Energie",
       "sub_domain": "Climat & risques naturels",
       "organization": "ADEME"
@@ -1685,11 +1702,46 @@
       "organization": "Colmo"
     },
     {
+      "title": "PCAET (v1) - Démarches - Partie 4",
+      "url": "https://www.data.gouv.fr/datasets/pcaet-v1-demarches-partie-4",
+      "domain": "Environnement & Energie",
+      "sub_domain": "Climat & risques naturels",
+      "organization": "ADEME"
+    },
+    {
       "title": "Données essentielles des conventions de subvention",
       "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-des-conventions-de-subvention-5",
       "domain": "Culture & Patrimoine",
       "sub_domain": "Autre",
       "organization": "Ministère de la Culture"
+    },
+    {
+      "title": "Historique des groupes politiques de l'Assemblée nationale (depuis 2012) - Informations et statistiques",
+      "url": "https://www.data.gouv.fr/datasets/historique-des-groupes-politiques-de-lassemblee-nationale-depuis-2012-informations-et-statistiques",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Datan"
+    },
+    {
+      "title": "Historique des députés de l'Assemblée nationale (depuis 2002) - Informations et statistiques",
+      "url": "https://www.data.gouv.fr/datasets/historique-des-deputes-de-lassemblee-nationale-depuis-2002-informations-et-statistiques",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Datan"
+    },
+    {
+      "title": "Groupes politiques actifs de l'Assemblée nationale - Informations et statistiques",
+      "url": "https://www.data.gouv.fr/datasets/groupes-politiques-actifs-de-lassemblee-nationale-informations-et-statistiques",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Datan"
+    },
+    {
+      "title": "Députés actifs de l'Assemblée nationale - Informations et statistiques",
+      "url": "https://www.data.gouv.fr/datasets/deputes-actifs-de-lassemblee-nationale-informations-et-statistiques",
+      "domain": "Autre / Non classe",
+      "sub_domain": null,
+      "organization": "Datan"
     },
     {
       "title": "PCAET (v1) - Démarches - Partie 2",
@@ -1734,13 +1786,6 @@
       "organization": "ADEME"
     },
     {
-      "title": "Délibérations des organismes adhérents du GIP RECIA",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-des-organismes-adherents-du-gip-recia",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Autre",
-      "organization": "GIP RECIA - Do.TeRR GéoCentre"
-    },
-    {
       "title": "Public charging stations for electric cars from several CPOs",
       "url": "https://www.data.gouv.fr/datasets/public-charging-stations-for-electric-cars-from-several-cpos",
       "domain": "Transport & Mobilite",
@@ -1748,25 +1793,11 @@
       "organization": "Eco-Movement"
     },
     {
-      "title": "PE Arpege EURAT01",
-      "url": "https://www.data.gouv.fr/datasets/pe-arpege-eurat01",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "Météo-France"
-    },
-    {
       "title": "Paquets de modèle de vagues haute résolution - WW3-WARP - Résolution 0.1°",
       "url": "https://www.data.gouv.fr/datasets/paquets-de-modele-de-vagues-haute-resolution-ww3-warp-resolution-0-1deg",
       "domain": "Autre / Non classe",
       "sub_domain": null,
       "organization": "Météo-France"
-    },
-    {
-      "title": "Données de la Présence Numérique des Territoires ",
-      "url": "https://www.data.gouv.fr/datasets/donnees-de-la-presence-numerique-des-territoires",
-      "domain": "Numerique",
-      "sub_domain": "Cybersecurite",
-      "organization": "Agence nationale de la cohésion des territoires"
     },
     {
       "title": "Paquets de modèle de vagues haute résolution - WW3-MARO - Résolution 0.1°",
@@ -1783,32 +1814,18 @@
       "organization": "Météo-France"
     },
     {
+      "title": "Données de la Présence Numérique des Territoires ",
+      "url": "https://www.data.gouv.fr/datasets/donnees-de-la-presence-numerique-des-territoires",
+      "domain": "Numerique",
+      "sub_domain": "Cybersecurite",
+      "organization": "Agence nationale de la cohésion des territoires"
+    },
+    {
       "title": "Paquets de modèle de vagues - MFWAM - Résolution 0.025°",
       "url": "https://www.data.gouv.fr/datasets/paquets-de-modele-de-vagues-mfwam-resolution-0-025deg",
       "domain": "Autre / Non classe",
       "sub_domain": null,
       "organization": "Météo-France"
-    },
-    {
-      "title": "Dossiers d'information mairie",
-      "url": "https://www.data.gouv.fr/datasets/dossiers-dinformation-mairie",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Brest métropole"
-    },
-    {
-      "title": "Donnée Sécheresse - VigiEau",
-      "url": "https://www.data.gouv.fr/datasets/donnee-secheresse-vigieau",
-      "domain": "Environnement & Energie",
-      "sub_domain": "Climat & risques naturels",
-      "organization": "Ministère de la Transition écologique"
-    },
-    {
-      "title": "Points tri des emballages et des papiers",
-      "url": "https://www.data.gouv.fr/datasets/points-tri-des-emballages-et-des-papiers",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "Sitcom Côte sud des Landes"
     },
     {
       "title": "Paquets de modèle de vagues - MFWAM - Résolution 0.1°",
@@ -1818,39 +1835,32 @@
       "organization": "Météo-France"
     },
     {
-      "title": "Déploiement des services de l'Incubateur des territoires",
-      "url": "https://www.data.gouv.fr/datasets/deploiement-des-services-de-lincubateur-des-territoires",
+      "title": "Naturalisations par décret publiées au Journal officiel : décomptes par département et par année (2016-2026)",
+      "url": "https://www.data.gouv.fr/datasets/naturalisations-par-decret-publiees-au-journal-officiel-decomptes-par-departement-et-par-annee-2016-2026",
       "domain": "Collectivites & Administration",
-      "sub_domain": "Autre",
-      "organization": "Agence nationale de la cohésion des territoires"
+      "sub_domain": "Regions & departements",
+      "organization": "Naturalisation Facile"
     },
     {
-      "title": "Prévisions des prix du carburants de 1 à 31 jours (France)",
-      "url": "https://www.data.gouv.fr/datasets/previsions-des-prix-du-carburants-de-1-a-31-jours-france",
-      "domain": "Autre / Non classe",
-      "sub_domain": null,
-      "organization": "Chiffrex"
-    },
-    {
-      "title": "Délibérations Communauté de Communes du Frontonnais",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-communaute-de-communes-du-frontonnais",
-      "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
-    },
-    {
-      "title": "Paquets Arpège - Résolution 0,25°",
-      "url": "https://www.data.gouv.fr/datasets/paquets-arpege-resolution-0-25deg",
+      "title": "Paquets Arome Outre-Mer - Réunion-Mayotte - Résolution 0,025°",
+      "url": "https://www.data.gouv.fr/datasets/paquets-arome-outre-mer-reunion-mayotte-resolution-0-025deg",
       "domain": "Autre / Non classe",
       "sub_domain": null,
       "organization": "Météo-France"
     },
     {
-      "title": "Délibérations Bassin Auterivain, communauté de communes",
-      "url": "https://www.data.gouv.fr/datasets/deliberations-bassin-auterivain-communaute-de-communes",
+      "title": "Projets d'énergies renouvelables soumis à appel d'offres en France",
+      "url": "https://www.data.gouv.fr/datasets/projets-denergies-renouvelables-soumis-a-appel-doffres-en-france",
+      "domain": "Environnement & Energie",
+      "sub_domain": "Energie & reseaux",
+      "organization": "Potentiel"
+    },
+    {
+      "title": "Déploiement des services de l'Incubateur des territoires",
+      "url": "https://www.data.gouv.fr/datasets/deploiement-des-services-de-lincubateur-des-territoires",
       "domain": "Collectivites & Administration",
-      "sub_domain": "Communes & intercommunalites",
-      "organization": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+      "sub_domain": "Autre",
+      "organization": "Agence nationale de la cohésion des territoires"
     }
   ]
 }
